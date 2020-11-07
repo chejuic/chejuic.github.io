@@ -1,2 +1,2 @@
-## [Medical](chejuic.github.io/med)
-
+# medical stuff
+mostly educational sheets for patients
