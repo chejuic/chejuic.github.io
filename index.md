@@ -1,4 +1,4 @@
-﻿# **Education sheets**
+# **Education sheets**
 Source: (mostly from NTUH)
 
 ## Cardiovascular
@@ -20,20 +20,20 @@ Source: (mostly from NTUH)
 [飲食紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E9%A3%B2%E9%A3%9F%E7%B4%80%E9%8C%84%E8%A1%A8.pdf)
 
 ## Diet
-[飲食衛教單張_低普林飲食](https://chejuic.github.io/med/飲食衛教單張_低普林飲食.pdf)\
-[飲食衛教單張_低油飲食](https://chejuic.github.io/med/飲食衛教單張_低油飲食.pdf)\
-[飲食衛教單張_低渣飲食](https://chejuic.github.io/med/飲食衛教單張_低渣飲食.pdf)\
-[飲食衛教單張_低膽固醇飲食](https://chejuic.github.io/med/飲食衛教單張_低膽固醇飲食.pdf)\
-[飲食衛教單張_慢性腎臟病飲食](https://chejuic.github.io/med/飲食衛教單張_慢性腎臟病飲食.pdf)\
-[飲食衛教單張_糖尿病飲食](https://chejuic.github.io/med/飲食衛教單張_糖尿病飲食.pdf)
+[飲食衛教單張_低普林飲食](https://chejuic.github.io/chejuic.github.io/med/飲食衛教單張_低普林飲食.pdf)\
+[飲食衛教單張_低油飲食](https://chejuic.github.io/chejuic.github.io/med/飲食衛教單張_低油飲食.pdf)\
+[飲食衛教單張_低渣飲食](https://chejuic.github.io/chejuic.github.io/med/飲食衛教單張_低渣飲食.pdf)\
+[飲食衛教單張_低膽固醇飲食](https://chejuic.github.io/chejuic.github.io/med/飲食衛教單張_低膽固醇飲食.pdf)\
+[飲食衛教單張_慢性腎臟病飲食](https://chejuic.github.io/chejuic.github.io/med/飲食衛教單張_慢性腎臟病飲食.pdf)\
+[飲食衛教單張_糖尿病飲食](https://chejuic.github.io/chejuic.github.io/med/飲食衛教單張_糖尿病飲食.pdf)
 
 ## Exercise
-[全民身體活動指引-成年人篇](https://chejuic.github.io/med/全民身體活動指引-成年人篇.pdf)\
-[全民身體活動指引-孕產婦篇](https://chejuic.github.io/med/全民身體活動指引-孕產婦篇.pdf)\
-[全民身體活動指引-氣喘篇](https://chejuic.github.io/med/全民身體活動指引-氣喘篇.pdf)\
-[全民身體活動指引-退化性關節炎篇](https://chejuic.github.io/med/全民身體活動指引-退化性關節炎篇.pdf)\
-[全民身體活動指引-高血壓與心臟疾病篇](https://chejuic.github.io/med/全民身體活動指引-高血壓與心臟疾病篇.pdf)\
-[全民身體活動指引-銀髮族篇](https://chejuic.github.io/med/全民身體活動指引-銀髮族篇.pdf)
+[全民身體活動指引-成年人篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-成年人篇.pdf)\
+[全民身體活動指引-孕產婦篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-孕產婦篇.pdf)\
+[全民身體活動指引-氣喘篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-氣喘篇.pdf)\
+[全民身體活動指引-退化性關節炎篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-退化性關節炎篇.pdf)\
+[全民身體活動指引-高血壓與心臟疾病篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-高血壓與心臟疾病篇.pdf)\
+[全民身體活動指引-銀髮族篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-銀髮族篇.pdf)
 
 ## GERD
 [胃食道逆流](https://health.ntuh.gov.tw/health/forms/txt/11_%E8%83%83%E9%A3%9F%E9%81%93%E9%80%86%E6%B5%81.pdf)
@@ -49,7 +49,7 @@ Source: (mostly from NTUH)
 [中風黃金時間](https://health.ntuh.gov.tw/health/forms/txt/16_%E4%B8%AD%E9%A2%A83%E5%B0%8F%E6%99%82.pdf)
 
 ## Headache
-[偏頭痛管理](https://chejuic.github.io/med/偏頭痛管理.pdf)\
+[偏頭痛管理](https://chejuic.github.io/chejuic.github.io/med/偏頭痛管理.pdf)\
 [頭痛日誌](http://www.taiwanheadache.com.tw/doc/Diary.pdf)
 
 ## Insomnia
