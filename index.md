@@ -55,9 +55,10 @@ Source: (mostly from NTUH)
 [偏頭痛管理](https://chejuic.github.io/chejuic.github.io/med/偏頭痛管理.pdf)\
 [頭痛日誌](http://www.taiwanheadache.com.tw/doc/Diary.pdf)
 
-## Insomnia
+## PSY
 [夜眠保養與失眠症](https://health.ntuh.gov.tw/health/forms/txt/18_%E5%A4%9C%E7%9C%A0%E4%BF%9D%E9%A4%8A%E8%88%87%E5%A4%B1%E7%9C%A0%E7%97%87.pdf)\
-[睡眠日誌](https://www.ntuh.gov.tw/ckfinder_file/SLP/files/%E7%9D%A1%E7%9C%A0%E6%97%A5%E8%AA%8C.pdf)
+[睡眠日誌](https://www.ntuh.gov.tw/ckfinder_file/SLP/files/%E7%9D%A1%E7%9C%A0%E6%97%A5%E8%AA%8C.pdf)\
+[腹式呼吸 (台大陳錫中醫師)](https://chejuic.github.io/chejuic.github.io/med/陳錫中呼吸放鬆訓練_p10_12.pdf)
 
 ## Osteoporosis
 [骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/03_%E9%AB%98%E8%84%82%E8%A1%80%E7%97%87%E7%9A%84%E9%A3%B2%E9%A3%9F%E8%AA%BF%E6%95%B4.html)
