@@ -20,6 +20,8 @@ Source: (mostly from NTUH)
 [飲食紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E9%A3%B2%E9%A3%9F%E7%B4%80%E9%8C%84%E8%A1%A8.pdf)
 
 ## Diet
+[偏頭痛飲食處方](https://chejuic.github.io/chejuic.github.io/med/食物與頭痛.pdf)\
+[便秘飲食處方](https://chejuic.github.io/chejuic.github.io/med/如何吃到足夠的纖維素.pdf)\
 [飲食衛教單張_低普林飲食](https://chejuic.github.io/chejuic.github.io/med/飲食衛教單張_低普林飲食.pdf)\
 [飲食衛教單張_低油飲食](https://chejuic.github.io/chejuic.github.io/med/飲食衛教單張_低油飲食.pdf)\
 [飲食衛教單張_低渣飲食](https://chejuic.github.io/chejuic.github.io/med/飲食衛教單張_低渣飲食.pdf)\
