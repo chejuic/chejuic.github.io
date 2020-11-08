@@ -35,6 +35,9 @@ Source: (mostly from NTUH)
 [全民身體活動指引-高血壓與心臟疾病篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-高血壓與心臟疾病篇.pdf)\
 [全民身體活動指引-銀髮族篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-銀髮族篇.pdf)
 
+## Respiratory
+[低劑量電腦斷層共識宣言2020](https://chejuic.github.io/chejuic.github.io/med/LDCT肺癌篩檢共識宣言.pdf)
+
 ## GERD
 [胃食道逆流](https://health.ntuh.gov.tw/health/forms/txt/11_%E8%83%83%E9%A3%9F%E9%81%93%E9%80%86%E6%B5%81.pdf)
 
