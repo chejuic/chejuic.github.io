@@ -77,6 +77,9 @@ Source: (mostly from NTUH)
 ## Geriatrics
 [銀髮族營養養生](https://health.ntuh.gov.tw/health/forms/txt/15_%E8%80%81%E5%B9%B4%E7%87%9F%E9%A4%8A.pdf)
 
+## Palliative
+[Palliative Prognostic Score (PaP)](https://www.mdapp.co/palliative-prognostic-score-pap-calculator-401/)
+
 ## Reference sites
 [NTUH Health Center](https://health.ntuh.gov.tw/health/hrc_v3/nForm4.aspx?apID=HrcForm1.htm)
 
