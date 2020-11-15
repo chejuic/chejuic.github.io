@@ -12,7 +12,7 @@ Source: (mostly from NTUH)
 ## Diabetes
 [糖尿病應有的認識](https://health.ntuh.gov.tw/health/forms/txt/01_%E7%B3%96%E5%B0%BF%E7%97%85%E6%87%89%E6%9C%89%E8%AA%8D%E8%AD%98.pdf)\
 [糖尿病飲食原則](https://health.ntuh.gov.tw/health/forms/txt/06_%E7%B3%96%E5%B0%BF%E7%97%85%E9%A3%B2%E9%A3%9F%E5%8E%9F%E5%89%87.pdf)\
-[糖尿病病友每日生活與血糖記錄](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E7%B3%96%E5%B0%BF%E7%97%85%E7%94%9F%E6%B4%BB%E5%8F%8A%E8%A1%80%E7%B3%96%E8%A8%98%E9%8C%84.pdf)
+[糖尿病病友每日生活與血糖記錄](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E7%B3%96%E5%B0%BF%E7%97%85%E7%94%9F%E6%B4%BB%E5%8F%8A%E8%A1%80%E7%B3%96%E8%A8%98%E9%8C%84.pdf)
 
 ## Hyperlipidemia
 [高脂血症的飲食調整](https://health.ntuh.gov.tw/health/forms/txt/03_%E9%AB%98%E8%84%82%E8%A1%80%E7%97%87%E7%9A%84%E9%A3%B2%E9%A3%9F%E8%AA%BF%E6%95%B4.html)\
@@ -65,7 +65,7 @@ Source: (mostly from NTUH)
 ## Osteoporosis
 [骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/03_%E9%AB%98%E8%84%82%E8%A1%80%E7%97%87%E7%9A%84%E9%A3%B2%E9%A3%9F%E8%AA%BF%E6%95%B4.html)
 
-## Arthritis
+## PM&R
 [認識關節炎](https://health.ntuh.gov.tw/health/forms/txt/09_%E8%AA%8D%E8%AD%98%E9%97%9C%E7%AF%80%E7%82%8E.pdf)
 
 ## Women's health
@@ -75,7 +75,8 @@ Source: (mostly from NTUH)
 [攝護腺肥大](https://health.ntuh.gov.tw/health/forms/txt/20_%E6%94%9D%E8%AD%B7%E8%85%BA%E8%82%A5%E5%A4%A7.pdf)
 
 ## Geriatrics
-[銀髮族營養養生](https://health.ntuh.gov.tw/health/forms/txt/15_%E8%80%81%E5%B9%B4%E7%87%9F%E9%A4%8A.pdf)
+[銀髮族營養養生](https://health.ntuh.gov.tw/health/forms/txt/15_%E8%80%81%E5%B9%B4%E7%87%9F%E9%A4%8A.pdf)\
+[銀髮族口腔保健](https://chejuic.github.io/chejuic.github.io/med/老年口腔保健_摘錄.pdf.pdf)
 
 ## Palliative
 [Palliative Prognostic Score (PaP)](https://www.mdapp.co/palliative-prognostic-score-pap-calculator-401/)
