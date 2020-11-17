@@ -40,20 +40,16 @@ Source: (mostly from NTUH)
 ## Respiratory
 [低劑量電腦斷層共識宣言2020](https://chejuic.github.io/chejuic.github.io/med/LDCT肺癌篩檢共識宣言.pdf)
 
-## GERD
-[胃食道逆流](https://health.ntuh.gov.tw/health/forms/txt/11_%E8%83%83%E9%A3%9F%E9%81%93%E9%80%86%E6%B5%81.pdf)
-
-## Liver
+## Digestive
+[胃食道逆流](https://health.ntuh.gov.tw/health/forms/txt/11_%E8%83%83%E9%A3%9F%E9%81%93%E9%80%86%E6%B5%81.pdf)\
 [脂肪肝](https://health.ntuh.gov.tw/health/forms/txt/21_%E8%84%82%E8%82%AA%E8%82%9D.pdf)
 
 ## CKD
 [腎臟保健](https://health.ntuh.gov.tw/health/forms/txt/12_%E8%85%8E%E8%87%9F%E4%BF%9D%E5%81%A5%E7%A7%98%E8%A8%A3.pdf)
 
-## Stroke
+## Neuro
 [腦中風防治觀念](https://health.ntuh.gov.tw/health/forms/txt/13_%E9%A0%90%E9%98%B2%E8%85%A6%E4%B8%AD%E9%A2%A8.pdf)\
-[中風黃金時間](https://health.ntuh.gov.tw/health/forms/txt/16_%E4%B8%AD%E9%A2%A83%E5%B0%8F%E6%99%82.pdf)
-
-## Headache
+[中風黃金時間](https://health.ntuh.gov.tw/health/forms/txt/16_%E4%B8%AD%E9%A2%A83%E5%B0%8F%E6%99%82.pdf)\
 [偏頭痛管理](https://chejuic.github.io/chejuic.github.io/med/偏頭痛管理.pdf)\
 [頭痛日誌](http://www.taiwanheadache.com.tw/doc/Diary.pdf)
 
@@ -62,10 +58,8 @@ Source: (mostly from NTUH)
 [睡眠日誌](https://www.ntuh.gov.tw/ckfinder_file/SLP/files/%E7%9D%A1%E7%9C%A0%E6%97%A5%E8%AA%8C.pdf)\
 [腹式呼吸 (台大陳錫中醫師)](https://chejuic.github.io/chejuic.github.io/med/陳錫中呼吸放鬆訓練_p10_12.pdf)
 
-## Osteoporosis
-[骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/03_%E9%AB%98%E8%84%82%E8%A1%80%E7%97%87%E7%9A%84%E9%A3%B2%E9%A3%9F%E8%AA%BF%E6%95%B4.html)
-
-## PM&R
+## Musculoskeletal
+[骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/03_%E9%AB%98%E8%84%82%E8%A1%80%E7%97%87%E7%9A%84%E9%A3%B2%E9%A3%9F%E8%AA%BF%E6%95%B4.html)\
 [認識關節炎](https://health.ntuh.gov.tw/health/forms/txt/09_%E8%AA%8D%E8%AD%98%E9%97%9C%E7%AF%80%E7%82%8E.pdf)
 
 ## Women's health
