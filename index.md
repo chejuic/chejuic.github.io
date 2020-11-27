@@ -53,6 +53,7 @@ Source: (mostly from NTUH)
 [偏頭痛管理](https://chejuic.github.io/chejuic.github.io/med/偏頭痛管理.pdf)\
 [頭痛日誌](http://www.taiwanheadache.com.tw/doc/Diary.pdf)\
 [纖維肌痛症簡介](https://www.ntuh.gov.tw/neur/Fpage.action?fid=4198)\
+[ACR 1990 Diagnostic Criteria for Fibromyalgia](https://chejuic.github.io/chejuic.github.io/med/頁面擷取自-纖維肌痛症指引.pdf)\
 [眩暈與前庭復健](https://netreg.pntn.mohw.gov.tw/he/292%E7%9C%A9%E6%9A%88%E8%88%87%E5%89%8D%E5%BA%AD%E5%BE%A9%E5%81%A5.pdf)
 
 ## PSY
