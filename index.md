@@ -52,7 +52,8 @@ Source: (mostly from NTUH)
 [中風黃金時間](https://health.ntuh.gov.tw/health/forms/txt/16_%E4%B8%AD%E9%A2%A83%E5%B0%8F%E6%99%82.pdf)\
 [偏頭痛管理](https://chejuic.github.io/chejuic.github.io/med/偏頭痛管理.pdf)\
 [頭痛日誌](http://www.taiwanheadache.com.tw/doc/Diary.pdf)\
-[纖維肌痛症簡介](https://www.ntuh.gov.tw/neur/Fpage.action?fid=4198)
+[纖維肌痛症簡介](https://www.ntuh.gov.tw/neur/Fpage.action?fid=4198)\
+[眩暈與前庭復健](https://netreg.pntn.mohw.gov.tw/he/292%E7%9C%A9%E6%9A%88%E8%88%87%E5%89%8D%E5%BA%AD%E5%BE%A9%E5%81%A5.pdf)
 
 ## PSY
 [夜眠保養與失眠症](https://health.ntuh.gov.tw/health/forms/txt/18_%E5%A4%9C%E7%9C%A0%E4%BF%9D%E9%A4%8A%E8%88%87%E5%A4%B1%E7%9C%A0%E7%97%87.pdf)\
