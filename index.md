@@ -6,6 +6,7 @@ Source: (mostly from NTUH)
 [得舒飲食](https://health.ntuh.gov.tw/health/forms/txt/17_%E5%BE%97%E8%88%92%E9%A3%B2%E9%A3%9F.pdf)\
 [血壓紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E8%A1%80%E5%A3%93%E8%A8%98%E9%8C%84%E8%A1%A8.pdf)\
 [Heart Risk Calculator](http://www.cvriskcalculator.com/)\
+[心血管事件10年風險估計 (ACC/AHA 2013)(研究用)](https://chejuic.shinyapps.io/ascvd_aha_2013/)\
 [心衰竭衛教](https://health.ntuh.gov.tw/health/forms/txt/22_%E5%BF%83%E8%A1%B0%E7%AB%AD%E8%A1%9B%E6%95%99.pdf)\
 [心衰竭體重紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E5%BF%83%E8%87%9F%E8%A1%B0%E7%AB%AD%E8%AD%B7%E7%90%86%E6%8C%87%E5%B0%8E%E8%87%AA%E4%B8%BB%E9%AB%94%E9%87%8D%E7%B4%80%E9%8C%84%E8%A1%A8.pdf)
 
