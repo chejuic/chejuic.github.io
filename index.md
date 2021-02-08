@@ -64,6 +64,10 @@ Source: (mostly from NTUH)
 [睡眠日誌](https://www.ntuh.gov.tw/ckfinder_file/SLP/files/%E7%9D%A1%E7%9C%A0%E6%97%A5%E8%AA%8C.pdf)\
 [腹式呼吸 (台大陳錫中醫師)](https://chejuic.github.io/chejuic.github.io/med/陳錫中呼吸放鬆訓練_p10_12.pdf)
 
+## Derm
+[正確剪指甲](http://www.kosodatedou.com/%E5%AD%90%E8%82%B2%E3%81%A6%E3%83%8D%E3%82%BF/post-518/)\
+[正確剪指甲(圖)]
+
 ## Musculoskeletal
 [骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/03_%E9%AB%98%E8%84%82%E8%A1%80%E7%97%87%E7%9A%84%E9%A3%B2%E9%A3%9F%E8%AA%BF%E6%95%B4.html)\
 [認識關節炎](https://health.ntuh.gov.tw/health/forms/txt/09_%E8%AA%8D%E8%AD%98%E9%97%9C%E7%AF%80%E7%82%8E.pdf)
