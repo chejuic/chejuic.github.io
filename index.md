@@ -82,6 +82,10 @@ Source: (mostly from NTUH)
 [銀髮族營養養生](https://health.ntuh.gov.tw/health/forms/txt/15_%E8%80%81%E5%B9%B4%E7%87%9F%E9%A4%8A.pdf)\
 [銀髮族口腔保健](https://chejuic.github.io/chejuic.github.io/med/老年口腔保健_摘錄.pdf.pdf)
 
+## Laboratory
+[閱讀檢驗報告](https://health.ntuh.gov.tw/health/hrc_v3/DataFiles/kensa.htm)\
+[腫瘤指數的迷思](https://epaper.ntuh.gov.tw/health/201110/pdf/%E8%85%AB%E7%98%A4%E6%8C%87%E6%95%B8%E7%9A%84%E8%BF%B7%E6%80%9D.pdf)
+
 ## Palliative
 [Palliative Prognostic Score (PaP)](https://www.mdapp.co/palliative-prognostic-score-pap-calculator-401/)
 
