@@ -66,7 +66,7 @@ Source: (mostly from NTUH)
 
 ## Derm
 [正確剪指甲](http://www.kosodatedou.com/%E5%AD%90%E8%82%B2%E3%81%A6%E3%83%8D%E3%82%BF/post-518/)\
-[正確剪指甲(圖)]
+[正確剪指甲(圖)](https://chejuic.github.io/chejuic.github.io/med/20210208_084614648.jpg)
 
 ## Musculoskeletal
 [骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/03_%E9%AB%98%E8%84%82%E8%A1%80%E7%97%87%E7%9A%84%E9%A3%B2%E9%A3%9F%E8%AA%BF%E6%95%B4.html)\
