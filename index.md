@@ -36,10 +36,10 @@ Source: (mostly from NTUH)
 [全民身體活動指引-氣喘篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-氣喘篇.pdf)\
 [全民身體活動指引-退化性關節炎篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-退化性關節炎篇.pdf)\
 [全民身體活動指引-高血壓與心臟疾病篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-高血壓與心臟疾病篇.pdf)\
-[全民身體活動指引-銀髮族篇](https://chejuic.github.io/chejuic.github.io/med/全民身體活動指引-銀髮族篇.pdf)
+[全民身體活動指引-銀髮族篇](https://chejuic.github.io/chejuic.github.io/raw/main/med/全民身體活動指引-銀髮族篇.pdf)
 
 ## Respiratory
-[低劑量電腦斷層共識宣言2020](https://chejuic.github.io/chejuic.github.io/blob/main/med/LDCT肺癌篩檢共識宣言.pdf)\
+[低劑量電腦斷層共識宣言2020](https://github.com/chejuic/chejuic.github.io/raw/main/med/LDCT肺癌篩檢共識宣言.pdf)\
 [氣喘肺功能紀錄卡](http://www.taiwanasthma.com.tw/uploads/1/0/3/1/103176700/%E8%82%BA%E5%8A%9F%E8%83%BD%E7%B4%80%E9%8C%84%E5%8D%A1.pdf)\
 [慢性阻塞性肺疾病自我照顧指導](https://www.hch.gov.tw/HCH/Upload/HealthEducation/2158/%E6%85%A2%E6%80%A7%E9%98%BB%E5%A1%9E%E6%80%A7%E8%82%BA%E7%96%BE%E7%97%85%E8%87%AA%E6%88%91%E7%85%A7%E9%A1%A7%E6%8C%87%E5%B0%8E.pdf)
 
