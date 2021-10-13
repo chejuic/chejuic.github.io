@@ -22,7 +22,7 @@ Source: (mostly from NTUH)
 
 ## Diet
 [偏頭痛飲食處方](https://chejuic.github.io/med/食物與頭痛.pdf)\
-[便秘飲食處方](https://chejuic.github.io/med/如何吃到足夠的纖維素.pdf)\
+[便秘飲食處方 高纖維飲食](https://chejuic.github.io/med/如何吃到足夠的纖維素.pdf)\
 [飲食衛教單張_低普林飲食](https://chejuic.github.io/med/飲食衛教單張_低普林飲食.pdf)\
 [飲食衛教單張_低油飲食](https://chejuic.github.io/med/飲食衛教單張_低油飲食.pdf)\
 [飲食衛教單張_低渣飲食](https://chejuic.github.io/med/飲食衛教單張_低渣飲食.pdf)\
@@ -70,7 +70,8 @@ Source: (mostly from NTUH)
 
 ## Musculoskeletal
 [骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/08_骨鬆預防.pdf)\
-[認識關節炎](https://health.ntuh.gov.tw/health/forms/txt/09_%E8%AA%8D%E8%AD%98%E9%97%9C%E7%AF%80%E7%82%8E.pdf)
+[認識關節炎](https://health.ntuh.gov.tw/health/forms/txt/09_%E8%AA%8D%E8%AD%98%E9%97%9C%E7%AF%80%E7%82%8E.pdf)\
+[五十肩復健](https://chejuic.github.io/med/新竹醫院-新聞稿-五十肩.pdf)
 
 ## Women's health
 [更年期保健](https://health.ntuh.gov.tw/health/forms/txt/19_%E6%9B%B4%E5%B9%B4%E6%9C%9F.pdf)
