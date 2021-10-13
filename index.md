@@ -69,7 +69,7 @@ Source: (mostly from NTUH)
 [正確剪指甲(圖)](https://chejuic.github.io/med/20210208_084614648.jpg)
 
 ## Musculoskeletal
-[骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/03_%E9%AB%98%E8%84%82%E8%A1%80%E7%97%87%E7%9A%84%E9%A3%B2%E9%A3%9F%E8%AA%BF%E6%95%B4.html)\
+[骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/08_骨鬆預防.pdf)\
 [認識關節炎](https://health.ntuh.gov.tw/health/forms/txt/09_%E8%AA%8D%E8%AD%98%E9%97%9C%E7%AF%80%E7%82%8E.pdf)
 
 ## Women's health
