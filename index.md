@@ -55,7 +55,8 @@ Source: (mostly from NTUH)
 
 ## Digestive
 [胃食道逆流](https://health.ntuh.gov.tw/health/forms/txt/11_%E8%83%83%E9%A3%9F%E9%81%93%E9%80%86%E6%B5%81.pdf)\
-[脂肪肝](https://health.ntuh.gov.tw/health/forms/txt/21_%E8%84%82%E8%82%AA%E8%82%9D.pdf)
+[脂肪肝](https://health.ntuh.gov.tw/health/forms/txt/21_%E8%84%82%E8%82%AA%E8%82%9D.pdf)\
+[急性腸胃炎衛教](https://www.hch.gov.tw/hch/MedicalTeams/HealthEducationDetail.aspx?MNO=C016&ID=7526)
 
 ## CKD
 [腎臟保健](https://health.ntuh.gov.tw/health/forms/txt/12_%E8%85%8E%E8%87%9F%E4%BF%9D%E5%81%A5%E7%A7%98%E8%A8%A3.pdf)\
