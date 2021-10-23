@@ -13,7 +13,13 @@ Source: (mostly from NTUH)
 
 ## Diabetes
 [糖尿病應有的認識](https://health.ntuh.gov.tw/health/forms/txt/01_%E7%B3%96%E5%B0%BF%E7%97%85%E6%87%89%E6%9C%89%E8%AA%8D%E8%AD%98.pdf)\
+[新發病糖友該如何控制血糖呢？](https://www.dmtalks.com.tw/Content/1294?s=12)\
+[吃藥好還是打針好?](https://www.dmtalks.com.tw/content/1154?s=12)\
 [糖尿病飲食原則](https://health.ntuh.gov.tw/health/forms/txt/06_%E7%B3%96%E5%B0%BF%E7%97%85%E9%A3%B2%E9%A3%9F%E5%8E%9F%E5%89%87.pdf)\
+[正確的糖尿病飲食觀念](https://www.dmtalks.com.tw/Content/1128?s=12)\
+[糖友健康均衡飲食](https://www.dmtalks.com.tw/content/1095?S=12)\
+[間歇式斷食法糖友也適合嗎？](https://www.dmtalks.com.tw/Content/1956?s=12)\
+[減重飲食怎麼吃？糖友飲食控制3部曲](https://www.dmtalks.com.tw/content/1344?S=12)\
 [糖尿病病友每日生活與血糖記錄](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E7%B3%96%E5%B0%BF%E7%97%85%E7%94%9F%E6%B4%BB%E5%8F%8A%E8%A1%80%E7%B3%96%E8%A8%98%E9%8C%84.pdf)
 
 ## Hyperlipidemia
@@ -29,6 +35,7 @@ Source: (mostly from NTUH)
 [飲食衛教單張_低渣飲食](https://chejuic.github.io/med/飲食衛教單張_低渣飲食.pdf)\
 [飲食衛教單張_低膽固醇飲食](https://chejuic.github.io/med/飲食衛教單張_低膽固醇飲食.pdf)\
 [飲食衛教單張_慢性腎臟病飲食](https://chejuic.github.io/med/飲食衛教單張_慢性腎臟病飲食.pdf)\
+[護腎飲食六要六不要](https://www.dmtalks.com.tw/Content/1297?s=12)\
 [飲食衛教單張_糖尿病飲食](https://chejuic.github.io/med/飲食衛教單張_糖尿病飲食.pdf)\
 [銀髮族營養養生](https://health.ntuh.gov.tw/health/forms/txt/15_%E8%80%81%E5%B9%B4%E7%87%9F%E9%A4%8A.pdf)
 
