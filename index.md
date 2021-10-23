@@ -9,7 +9,8 @@ Source: (mostly from NTUH)
 [Heart Risk Calculator](http://www.cvriskcalculator.com/)\
 [心血管事件10年風險估計 (ACC/AHA 2013)(研究用)](https://chejuic.shinyapps.io/ascvd_aha_2013/)\
 [心衰竭衛教](https://health.ntuh.gov.tw/health/forms/txt/22_%E5%BF%83%E8%A1%B0%E7%AB%AD%E8%A1%9B%E6%95%99.pdf)\
-[心衰竭體重紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E5%BF%83%E8%87%9F%E8%A1%B0%E7%AB%AD%E8%AD%B7%E7%90%86%E6%8C%87%E5%B0%8E%E8%87%AA%E4%B8%BB%E9%AB%94%E9%87%8D%E7%B4%80%E9%8C%84%E8%A1%A8.pdf)
+[心衰竭體重紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E5%BF%83%E8%87%9F%E8%A1%B0%E7%AB%AD%E8%AD%B7%E7%90%86%E6%8C%87%E5%B0%8E%E8%87%AA%E4%B8%BB%E9%AB%94%E9%87%8D%E7%B4%80%E9%8C%84%E8%A1%A8.pdf)\
+[姿勢性低血壓衛教](https://yldepweb.ylh.gov.tw/department/28/nurseform/%E7%A5%9E%E7%B6%93%E7%B3%BB%E7%B5%B1%E7%96%BE%E7%97%85%E8%88%87%E7%85%A7%E8%AD%B7/%E5%A7%BF%E5%8B%A2%E6%80%A7%E4%BD%8E%E8%A1%80%E5%A3%93103.12.19.pdf)
 
 ## Diabetes
 [糖尿病應有的認識](https://health.ntuh.gov.tw/health/forms/txt/01_%E7%B3%96%E5%B0%BF%E7%97%85%E6%87%89%E6%9C%89%E8%AA%8D%E8%AD%98.pdf)\
