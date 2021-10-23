@@ -3,6 +3,7 @@ Source: (mostly from NTUH)
 
 ## Cardiovascular
 [高血壓](https://health.ntuh.gov.tw/health/forms/txt/10_%E9%AB%98%E8%A1%80%E5%A3%93.pdf)\
+[血壓都正常，有需要一直吃藥嗎？](https://www.dmtalks.com.tw/Content/1115?s=13)\
 [得舒飲食](https://health.ntuh.gov.tw/health/forms/txt/17_%E5%BE%97%E8%88%92%E9%A3%B2%E9%A3%9F.pdf)\
 [血壓紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E8%A1%80%E5%A3%93%E8%A8%98%E9%8C%84%E8%A1%A8.pdf)\
 [Heart Risk Calculator](http://www.cvriskcalculator.com/)\
@@ -28,7 +29,8 @@ Source: (mostly from NTUH)
 [飲食衛教單張_低渣飲食](https://chejuic.github.io/med/飲食衛教單張_低渣飲食.pdf)\
 [飲食衛教單張_低膽固醇飲食](https://chejuic.github.io/med/飲食衛教單張_低膽固醇飲食.pdf)\
 [飲食衛教單張_慢性腎臟病飲食](https://chejuic.github.io/med/飲食衛教單張_慢性腎臟病飲食.pdf)\
-[飲食衛教單張_糖尿病飲食](https://chejuic.github.io/med/飲食衛教單張_糖尿病飲食.pdf)
+[飲食衛教單張_糖尿病飲食](https://chejuic.github.io/med/飲食衛教單張_糖尿病飲食.pdf)\
+[銀髮族營養養生](https://health.ntuh.gov.tw/health/forms/txt/15_%E8%80%81%E5%B9%B4%E7%87%9F%E9%A4%8A.pdf)
 
 ## Exercise
 [全民身體活動指引-成年人篇](https://chejuic.github.io/med/全民身體活動指引-成年人篇.pdf)\
@@ -81,6 +83,7 @@ Source: (mostly from NTUH)
 
 ## Geriatrics
 [銀髮族營養養生](https://health.ntuh.gov.tw/health/forms/txt/15_%E8%80%81%E5%B9%B4%E7%87%9F%E9%A4%8A.pdf)\
+[全民身體活動指引-銀髮族篇]( https://chejuic.github.io/med/全民身體活動指引-銀髮族篇.pdf)\
 [銀髮族口腔保健](https://chejuic.github.io/med/老年口腔保健_摘錄.pdf.pdf)
 
 ## Laboratory
