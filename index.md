@@ -58,7 +58,9 @@ Source: (mostly from NTUH)
 [脂肪肝](https://health.ntuh.gov.tw/health/forms/txt/21_%E8%84%82%E8%82%AA%E8%82%9D.pdf)
 
 ## CKD
-[腎臟保健](https://health.ntuh.gov.tw/health/forms/txt/12_%E8%85%8E%E8%87%9F%E4%BF%9D%E5%81%A5%E7%A7%98%E8%A8%A3.pdf)
+[腎臟保健](https://health.ntuh.gov.tw/health/forms/txt/12_%E8%85%8E%E8%87%9F%E4%BF%9D%E5%81%A5%E7%A7%98%E8%A8%A3.pdf)\
+[護腎飲食六要六不要](https://www.dmtalks.com.tw/Content/1297?s=12)\
+[飲食衛教單張_糖尿病飲食](https://chejuic.github.io/med/飲食衛教單張_糖尿病飲食.pdf)
 
 ## Neuro
 [腦中風防治觀念](https://health.ntuh.gov.tw/health/forms/txt/13_%E9%A0%90%E9%98%B2%E8%85%A6%E4%B8%AD%E9%A2%A8.pdf)\
@@ -82,7 +84,8 @@ Source: (mostly from NTUH)
 ## Musculoskeletal
 [骨鬆預防](https://health.ntuh.gov.tw/health/forms/txt/08_骨鬆預防.pdf)\
 [認識關節炎](https://health.ntuh.gov.tw/health/forms/txt/09_%E8%AA%8D%E8%AD%98%E9%97%9C%E7%AF%80%E7%82%8E.pdf)\
-[五十肩復健](https://chejuic.github.io/med/新竹醫院-新聞稿-五十肩.pdf)
+[五十肩復健](https://chejuic.github.io/med/新竹醫院-新聞稿-五十肩.pdf)\
+[下背痛保健](https://health.ntuh.gov.tw/health/new/6364.html)
 
 ## Women's health
 [更年期保健](https://health.ntuh.gov.tw/health/forms/txt/19_%E6%9B%B4%E5%B9%B4%E6%9C%9F.pdf)
