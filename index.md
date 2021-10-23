@@ -67,7 +67,8 @@ Source: (mostly from NTUH)
 [頭痛日誌](http://www.taiwanheadache.com.tw/doc/Diary.pdf)\
 [纖維肌痛症簡介](https://www.ntuh.gov.tw/neur/Fpage.action?fid=4198)\
 [ACR 1990 Diagnostic Criteria for Fibromyalgia](https://chejuic.github.io/med/頁面擷取自-纖維肌痛症指引.pdf)\
-[眩暈與前庭復健](https://netreg.pntn.mohw.gov.tw/he/292%E7%9C%A9%E6%9A%88%E8%88%87%E5%89%8D%E5%BA%AD%E5%BE%A9%E5%81%A5.pdf)
+[眩暈與前庭復健](https://netreg.pntn.mohw.gov.tw/he/292%E7%9C%A9%E6%9A%88%E8%88%87%E5%89%8D%E5%BA%AD%E5%BE%A9%E5%81%A5.pdf)\
+[坐骨神經痛](http://epaper.ntuh.gov.tw/health/201210/pdf/%E6%B7%BA%E8%AB%87%E5%9D%90%E9%AA%A8%E7%A5%9E%E7%B6%93%E7%97%9B%E7%9A%84%E7%97%85%E5%9B%A0%E8%88%87%E6%B2%BB%E7%99%82.pdf)
 
 ## PSY
 [夜眠保養與失眠症](https://health.ntuh.gov.tw/health/forms/txt/18_%E5%A4%9C%E7%9C%A0%E4%BF%9D%E9%A4%8A%E8%88%87%E5%A4%B1%E7%9C%A0%E7%97%87.pdf)\
