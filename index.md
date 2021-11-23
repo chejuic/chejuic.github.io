@@ -3,7 +3,7 @@ Source: (mostly from NTUH)
 
 ## Cardiovascular
 [高血壓](https://health.ntuh.gov.tw/health/forms/txt/10_%E9%AB%98%E8%A1%80%E5%A3%93.pdf)\
-[血壓都正常，有需要一直吃藥嗎？](https://www.dmtalks.com.tw/Content/1115?s=13)\
+[血壓都正常，有需要一直吃藥嗎？](https://docs.google.com/document/d/1wAyelKGeh4ucBjFlplAl9gssyqhfux4dQ7EVWTOmX4s/)\
 [得舒飲食](https://health.ntuh.gov.tw/health/forms/txt/17_%E5%BE%97%E8%88%92%E9%A3%B2%E9%A3%9F.pdf)\
 [血壓紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E8%A1%80%E5%A3%93%E8%A8%98%E9%8C%84%E8%A1%A8.pdf)\
 [Heart Risk Calculator](http://www.cvriskcalculator.com/)\
@@ -16,8 +16,8 @@ Source: (mostly from NTUH)
 
 ## Diabetes
 [糖尿病應有的認識](https://health.ntuh.gov.tw/health/forms/txt/01_%E7%B3%96%E5%B0%BF%E7%97%85%E6%87%89%E6%9C%89%E8%AA%8D%E8%AD%98.pdf)\
-[新發病糖友該如何控制血糖呢？](https://www.dmtalks.com.tw/Content/1294?s=12)\
-[吃藥好還是打針好?](https://www.dmtalks.com.tw/content/1154?s=12)\
+[新發病糖友該如何控制血糖呢？](https://docs.google.com/document/d/10d2e1kajJ_E-dRiDnh_T_aYjo2PgEBM0okWfXf5IOYU/)\
+[吃藥好還是打針好?](https://docs.google.com/document/d/1XY4Xd5OjGj3VpFHwWH3PiP83AXl54u5TYf6l1AXikF0/)\
 [糖尿病飲食原則](https://health.ntuh.gov.tw/health/forms/txt/06_%E7%B3%96%E5%B0%BF%E7%97%85%E9%A3%B2%E9%A3%9F%E5%8E%9F%E5%89%87.pdf)\
 [正確的糖尿病飲食觀念](https://www.dmtalks.com.tw/Content/1128?s=12)\
 [糖友健康均衡飲食](https://www.dmtalks.com.tw/content/1095?S=12)\
@@ -57,6 +57,7 @@ Source: (mostly from NTUH)
 
 ## Digestive
 [胃食道逆流](https://health.ntuh.gov.tw/health/forms/txt/11_%E8%83%83%E9%A3%9F%E9%81%93%E9%80%86%E6%B5%81.pdf)\
+[消化性潰瘍](https://epaper.ntuh.gov.tw/health/201207/pdf/消化性潰瘍會痊癒嗎.pdf)\
 [脂肪肝](https://health.ntuh.gov.tw/health/forms/txt/21_%E8%84%82%E8%82%AA%E8%82%9D.pdf)\
 [急性腸胃炎衛教](https://www.hch.gov.tw/hch/MedicalTeams/HealthEducationDetail.aspx?MNO=C016&ID=7526)
 
