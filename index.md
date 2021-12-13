@@ -37,7 +37,7 @@ Source: (mostly from NTUH)
 [飲食衛教單張_低渣飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_低渣飲食.pdf)\
 [飲食衛教單張_低膽固醇飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_低膽固醇飲食.pdf)\
 [飲食衛教單張_慢性腎臟病飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_慢性腎臟病飲食.pdf)\
-[護腎飲食六要六不要](https://www.dmtalks.com.tw/Content/1297?s=12)\
+[護腎飲食六要六不要](https://docs.google.com/document/d/18xYAqSviY00urloX9DzI5vvEMGvyn2Ib0UCW-dKlfLE/)\
 [飲食衛教單張_糖尿病飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_糖尿病飲食.pdf)\
 [銀髮族營養養生](https://health.ntuh.gov.tw/health/forms/txt/15_%E8%80%81%E5%B9%B4%E7%87%9F%E9%A4%8A.pdf)
 
@@ -62,7 +62,7 @@ Source: (mostly from NTUH)
 
 ## CKD
 [腎臟保健](https://health.ntuh.gov.tw/health/forms/txt/12_%E8%85%8E%E8%87%9F%E4%BF%9D%E5%81%A5%E7%A7%98%E8%A8%A3.pdf)\
-[護腎飲食六要六不要](https://www.dmtalks.com.tw/Content/1297?s=12)\
+[護腎飲食六要六不要](https://docs.google.com/document/d/18xYAqSviY00urloX9DzI5vvEMGvyn2Ib0UCW-dKlfLE/)\
 [飲食衛教單張_糖尿病飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_糖尿病飲食.pdf)
 
 ## Neuro
