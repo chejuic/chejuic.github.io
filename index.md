@@ -22,7 +22,6 @@ Source: (mostly from NTUH)
 [新發病糖友該如何控制血糖呢？](https://docs.google.com/document/d/10d2e1kajJ_E-dRiDnh_T_aYjo2PgEBM0okWfXf5IOYU/)\
 [吃藥好還是打針好?](https://docs.google.com/document/d/1XY4Xd5OjGj3VpFHwWH3PiP83AXl54u5TYf6l1AXikF0/)\
 [糖尿病飲食原則](https://health.ntuh.gov.tw/health/forms/txt/06_%E7%B3%96%E5%B0%BF%E7%97%85%E9%A3%B2%E9%A3%9F%E5%8E%9F%E5%89%87.pdf)\
-[正確的糖尿病飲食觀念](https://docs.google.com/document/d/1SinQnUDUkziVsVsO8KUeONfxquSU6XZ7ZXtfMx248xE)\
 [糖友健康均衡飲食](https://docs.google.com/document/d/10vSOtmFDeNZrcTxSs1mA69h9PTCiNAVbkJ4QCKC6wg8/)\
 [減重飲食怎麼吃？糖友飲食控制3部曲](https://docs.google.com/document/d/1oDM5jfHpZekHkK6Q4ZDJTPWOB2x0JDonbMt5YypuQPM/)\
 [糖尿病病友每日生活與血糖記錄](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E7%B3%96%E5%B0%BF%E7%97%85%E7%94%9F%E6%B4%BB%E5%8F%8A%E8%A1%80%E7%B3%96%E8%A8%98%E9%8C%84.pdf)
