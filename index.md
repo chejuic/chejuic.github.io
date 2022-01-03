@@ -20,6 +20,7 @@ Source: (mostly from NTUH)
 [糖尿病應有的認識](https://health.ntuh.gov.tw/health/forms/txt/01_%E7%B3%96%E5%B0%BF%E7%97%85%E6%87%89%E6%9C%89%E8%AA%8D%E8%AD%98.pdf)\
 [新發病糖友該如何控制血糖呢？](https://docs.google.com/document/d/10d2e1kajJ_E-dRiDnh_T_aYjo2PgEBM0okWfXf5IOYU/)\
 [吃藥好還是打針好?](https://docs.google.com/document/d/1XY4Xd5OjGj3VpFHwWH3PiP83AXl54u5TYf6l1AXikF0/)\
+[胰島素自行調整原則](https://www.doctor-kids.com.tw/knowledge/detail/id/59.html)\
 [糖尿病飲食原則](https://health.ntuh.gov.tw/health/forms/txt/06_%E7%B3%96%E5%B0%BF%E7%97%85%E9%A3%B2%E9%A3%9F%E5%8E%9F%E5%89%87.pdf)\
 [糖友健康均衡飲食](https://docs.google.com/document/d/10vSOtmFDeNZrcTxSs1mA69h9PTCiNAVbkJ4QCKC6wg8/)\
 [減重飲食怎麼吃？糖友飲食控制3部曲](https://docs.google.com/document/d/1oDM5jfHpZekHkK6Q4ZDJTPWOB2x0JDonbMt5YypuQPM/)\
