@@ -53,6 +53,7 @@ Source: (mostly from NTUH)
 
 ## Respiratory
 [低劑量電腦斷層共識宣言2020](https://github.com/chejuic/chejuic.github.io/raw/main/med/LDCT肺癌篩檢共識宣言.pdf)\
+[肺結節計算機](https://fleischnerapp.com/)\
 [氣喘肺功能紀錄卡](http://www.taiwanasthma.com.tw/uploads/1/0/3/1/103176700/%E8%82%BA%E5%8A%9F%E8%83%BD%E7%B4%80%E9%8C%84%E5%8D%A1.pdf)\
 [慢性阻塞性肺疾病自我照顧指導](https://www.hch.gov.tw/?aid=626&pid=3&page_name=detail&iid=35)
 
@@ -71,7 +72,7 @@ Source: (mostly from NTUH)
 [腦中風防治觀念](https://health.ntuh.gov.tw/health/forms/txt/13_%E9%A0%90%E9%98%B2%E8%85%A6%E4%B8%AD%E9%A2%A8.pdf)\
 [中風黃金時間](https://health.ntuh.gov.tw/health/forms/txt/16_%E4%B8%AD%E9%A2%A83%E5%B0%8F%E6%99%82.pdf)\
 [偏頭痛管理](https://github.com/chejuic/chejuic.github.io/raw/main/med/偏頭痛管理.pdf)\
-[頭痛日誌](http://www.taiwanheadache.com.tw/doc/Diary.pdf)\
+[頭痛日誌](https://taiwanheadache.org.tw/headache-diary-and-assessment-scale/)\
 [纖維肌痛症簡介](https://www.ntuh.gov.tw/neur/Fpage.action?fid=4198)\
 [ACR 1990 Diagnostic Criteria for Fibromyalgia](https://github.com/chejuic/chejuic.github.io/raw/main/med/頁面擷取自-纖維肌痛症指引.pdf)\
 [BPPV復健](https://github.com/chejuic/chejuic.github.io/raw/main/med/Brandt-Daroff%20%E9%81%8B%E5%8B%95%20(BPPV).pdf)\
