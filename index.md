@@ -103,6 +103,8 @@ Source: (mostly from NTUH)
 ## Geriatrics
 [銀髮族營養養生](https://health.ntuh.gov.tw/health/forms/txt/15_%E8%80%81%E5%B9%B4%E7%87%9F%E9%A4%8A.pdf)\
 [全民身體活動指引-銀髮族篇](https://github.com/chejuic/chejuic.github.io/raw/main/med/全民身體活動指引-銀髮族篇.pdf)\
+[提肛運動_男生版](https://www.ylh.gov.tw/?aid=612&pid=50&page_name=detail&iid=415)\
+[凱格爾運動_女生版](https://www.ylh.gov.tw/?aid=612&pid=50&page_name=detail&iid=414)\
 [銀髮族口腔保健](https://github.com/chejuic/chejuic.github.io/raw/main/med/老年口腔保健_摘錄.pdf.pdf)
 
 ## Laboratory
