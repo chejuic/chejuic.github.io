@@ -95,9 +95,11 @@ Source: (mostly from NTUH)
 [下背痛保健](https://health.ntuh.gov.tw/health/new/6364.html)
 
 ## Women's health
+[凱格爾運動_女生版](https://www.ylh.gov.tw/?aid=612&pid=50&page_name=detail&iid=414)\
 [更年期保健](https://health.ntuh.gov.tw/health/forms/txt/19_%E6%9B%B4%E5%B9%B4%E6%9C%9F.pdf)
 
 ## Men's health
+[提肛運動_男生版](https://www.ylh.gov.tw/?aid=612&pid=50&page_name=detail&iid=415)\
 [攝護腺肥大](https://health.ntuh.gov.tw/health/forms/txt/20_%E6%94%9D%E8%AD%B7%E8%85%BA%E8%82%A5%E5%A4%A7.pdf)
 
 ## Geriatrics
