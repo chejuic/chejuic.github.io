@@ -2,7 +2,7 @@
 Source: (mostly from NTUH)
 
 ## Preventive medicine
-[成人疫苗](https://www.behance.net/gallery/65846051/_/modules/385396955)\
+[成人疫苗](https://www.tafm.org.tw/ehc-tafm/s/w/news_news/article/370aab2c5d22417ab1f1eb68600d5b91)\
 [電子菸與加熱菸](https://health99.hpa.gov.tw/article/18202)
 
 ## Cardiovascular
