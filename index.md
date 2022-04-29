@@ -110,6 +110,7 @@ Source: (mostly from NTUH)\
 [骨鬆預防(圖文版)](https://health.ntuh.gov.tw/health/forms/08_%E9%A0%90%E9%98%B2%E9%AA%A8%E8%B3%AA%E7%96%8F%E9%AC%86%E7%97%87.pdf)\
 [認識關節炎](https://health.ntuh.gov.tw/health/forms/txt/09_%E8%AA%8D%E8%AD%98%E9%97%9C%E7%AF%80%E7%82%8E.pdf)\
 [五十肩復健](https://github.com/chejuic/chejuic.github.io/raw/main/med/新竹醫院-新聞稿-五十肩.pdf)\
+[預防頸椎關節退化](https://health.ntuh.gov.tw/health/new/6329.html)\
 [下背痛保健](https://health.ntuh.gov.tw/health/new/6364.html)
 
 ## Women's health
