@@ -1,6 +1,7 @@
 # **Education sheets**
 Source: (mostly from NTUH)\
-[台大健康教育中心衛教單](https://www.ntuh.gov.tw/health/Fpage.action?muid=2652&fid=2521)
+[台大健康教育中心衛教單](https://www.ntuh.gov.tw/health/Fpage.action?muid=2652&fid=2521)\
+[新竹台大分院 COVID-19 確診者居家照護團隊 (民眾注意事項&常見QA)](https://redcap.ntuh.gov.tw/surveys/?s=iNj4zjTF8JmFEIJm)
 
 ## Preventive medicine
 [成人疫苗](https://www.tafm.org.tw/ehc-tafm/s/w/news_news/article/370aab2c5d22417ab1f1eb68600d5b91)\
