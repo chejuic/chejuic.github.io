@@ -1,7 +1,11 @@
 # **Education sheets**
 Source: (mostly from NTUH)\
 [台大健康教育中心衛教單](https://www.ntuh.gov.tw/health/Fpage.action?muid=2652&fid=2521)\
-[新竹台大分院 COVID-19 確診者居家照護團隊 (民眾注意事項&常見QA)](https://redcap.ntuh.gov.tw/surveys/?s=iNj4zjTF8JmFEIJm)
+[居家照護確診個案接聽紀錄](https://redcap.ntuh.gov.tw/surveys/?s=74FDAMTWWM7J94PC)\
+[新冠肺炎患者口服抗病毒藥物治療同意書暨治療紀錄表](https://redcap.ntuh.gov.tw/surveys/?s=MLH8T3M3NPNDCYN8)\
+&nbsp;&nbsp;&nbsp;[(內部說明檔)](https://redcap.ntuh.gov.tw/surveys/?s=CrGnv2xFEeivWyMH)\
+[COVID-19 確診者民眾注意事項&常見QA (台大個案)](https://redcap.ntuh.gov.tw/surveys/?s=jj4IuGraqIcSoTde)\
+[COVID-19 確診者民眾注意事項&常見QA (一般民眾)](https://redcap.ntuh.gov.tw/surveys/?s=iNj4zjTF8JmFEIJm)
 
 ## Preventive medicine
 [成人疫苗](https://www.tafm.org.tw/ehc-tafm/s/w/news_news/article/370aab2c5d22417ab1f1eb68600d5b91)\
