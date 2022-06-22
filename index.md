@@ -76,6 +76,7 @@ Source: (mostly from NTUH)\
 [消化性潰瘍](https://epaper.ntuh.gov.tw/health/201207/pdf/消化性潰瘍會痊癒嗎.pdf)\
 [脂肪肝](https://health.ntuh.gov.tw/health/forms/txt/21_%E8%84%82%E8%82%AA%E8%82%9D.pdf)\
 [脂肪肝(圖文版)](https://health.ntuh.gov.tw/health/forms/21_%E8%84%82%E8%82%AA%E8%82%9D.pdf)\
+[C肝衛教(圖文版)](https://github.com/chejuic/chejuic.github.io/raw/main/med/C肝衛教.pdf)\
 [急性腸胃炎衛教](https://www.hch.gov.tw/?aid=626&pid=7&page_name=detail&iid=77)
 
 ## CKD
