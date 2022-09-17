@@ -14,12 +14,23 @@ Source: (mostly from NTUH)\
 [成人疫苗](https://www.tafm.org.tw/ehc-tafm/s/w/news_news/article/370aab2c5d22417ab1f1eb68600d5b91)\
 [電子菸與加熱菸](https://health99.hpa.gov.tw/article/18202)
 
+## Weight control
+[成人肥胖防治指引手冊](https://health99.hpa.gov.tw/storage/pdf/materials/22024.pdf)\
+[減重SDM](https://health99.hpa.gov.tw/storage/pdf/materials/12267.pdf)\
+[每日熱量計算](https://km.hpa.gov.tw/obesity/TC/DayHeatCalculate.aspx)\
+[運動計算機](https://km.hpa.gov.tw/Obesity/TC/SportCalculate.aspx)
+
+## Laboratory
+[閱讀檢驗報告](https://health.ntuh.gov.tw/health/hrc_v3/DataFiles/kensa.htm)\
+[腫瘤指數的迷思](https://epaper.ntuh.gov.tw/health/201110/pdf/%E8%85%AB%E7%98%A4%E6%8C%87%E6%95%B8%E7%9A%84%E8%BF%B7%E6%80%9D.pdf)
+
 ## Cardiovascular
 [高血壓](https://health.ntuh.gov.tw/health/forms/txt/10_%E9%AB%98%E8%A1%80%E5%A3%93.pdf)\
 [高血壓(圖文版)](https://health.ntuh.gov.tw/health/forms/10_%E9%AB%98%E8%A1%80%E5%A3%93.pdf)\
 [血壓都正常，有需要一直吃藥嗎？](https://docs.google.com/document/d/1wAyelKGeh4ucBjFlplAl9gssyqhfux4dQ7EVWTOmX4s/)\
 [得舒飲食](https://health.ntuh.gov.tw/health/forms/txt/17_%E5%BE%97%E8%88%92%E9%A3%B2%E9%A3%9F.pdf)\
 [得舒飲食(圖文版](https://health.ntuh.gov.tw/health/forms/17_%E5%BE%97%E8%88%92%E9%A3%B2%E9%A3%9F.pdf)\
+[地中海飲食(印第1頁)](https://health99.hpa.gov.tw/storage/pdf/materials/12395.pdf)\
 [血壓紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E8%A1%80%E5%A3%93%E8%A8%98%E9%8C%84%E8%A1%A8.pdf)\
 [Heart Risk Calculator](http://www.cvriskcalculator.com/)\
 [冠心病須知(圖文版)](https://health.ntuh.gov.tw/health/forms/07_%E5%86%A0%E5%BF%83%E7%97%85%E9%A0%88%E7%9F%A5.pdf)\
@@ -52,6 +63,7 @@ Source: (mostly from NTUH)\
 [便秘飲食處方 高纖維飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/如何吃到足夠的纖維素.pdf)\
 [飲食衛教單張_低普林飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_低普林飲食.pdf)\
 [飲食衛教單張_低油飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_低油飲食.pdf)\
+[飲食衛教_減糖](https://www.hch.gov.tw/?aid=626&pid=62&page_name=detail&iid=706)\
 [飲食衛教單張_低渣飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_低渣飲食.pdf)\
 [飲食衛教單張_低膽固醇飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_低膽固醇飲食.pdf)\
 [飲食衛教單張_慢性腎臟病飲食](https://github.com/chejuic/chejuic.github.io/raw/main/med/飲食衛教單張_慢性腎臟病飲食.pdf)\
@@ -138,10 +150,6 @@ Source: (mostly from NTUH)\
 [提肛運動_男生版](https://www.ylh.gov.tw/?aid=612&pid=50&page_name=detail&iid=415)\
 [凱格爾運動_女生版](https://www.ylh.gov.tw/?aid=612&pid=50&page_name=detail&iid=414)\
 [銀髮族口腔保健](https://github.com/chejuic/chejuic.github.io/raw/main/med/老年口腔保健_摘錄.pdf.pdf)
-
-## Laboratory
-[閱讀檢驗報告](https://health.ntuh.gov.tw/health/hrc_v3/DataFiles/kensa.htm)\
-[腫瘤指數的迷思](https://epaper.ntuh.gov.tw/health/201110/pdf/%E8%85%AB%E7%98%A4%E6%8C%87%E6%95%B8%E7%9A%84%E8%BF%B7%E6%80%9D.pdf)
 
 ## Palliative
 [Palliative Prognostic Score (PaP)](https://www.mdapp.co/palliative-prognostic-score-pap-calculator-401/)
