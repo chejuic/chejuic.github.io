@@ -15,8 +15,7 @@ Source: (mostly from NTUH)\
 [電子菸與加熱菸](https://health99.hpa.gov.tw/article/18202)
 
 ## Weight control
-[成人肥胖防治指引手冊](https://health99.hpa.gov.tw/storage/pdf/materials/22024.pdf)\
-[減重SDM](https://health99.hpa.gov.tw/storage/pdf/materials/12267.pdf)\
+[體重管理學習手冊](https://drive.google.com/file/d/1ZUlAEBU3SH0rW2VJU88-EHs1zFgWZHww/)\
 [每日熱量計算](https://km.hpa.gov.tw/obesity/TC/DayHeatCalculate.aspx)\
 [運動計算機](https://km.hpa.gov.tw/Obesity/TC/SportCalculate.aspx)\
 [成人肥胖防治指引手冊](https://drive.google.com/file/d/1-_ztfkVxLSkYRqhGc9K40UM4NZiR4mfb/)\
