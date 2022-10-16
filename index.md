@@ -35,6 +35,7 @@ Source: (mostly from NTUH)\
 [地中海飲食(印第1頁)](https://health99.hpa.gov.tw/storage/pdf/materials/12395.pdf)\
 [血壓紀錄表](https://health.ntuh.gov.tw/health/%E8%A1%9B%E6%95%99%E5%96%AE%E5%BC%B5/%E8%A1%80%E5%A3%93%E8%A8%98%E9%8C%84%E8%A1%A8.pdf)\
 [Heart Risk Calculator](http://www.cvriskcalculator.com/)\
+[Heart Risk Calculator(Rstudio版)](https://chejuic.shinyapps.io/ascvd_aha_2013/)\
 [冠心病須知(圖文版)](https://health.ntuh.gov.tw/health/forms/07_%E5%86%A0%E5%BF%83%E7%97%85%E9%A0%88%E7%9F%A5.pdf)\
 [心臟病病人的日常生活保健](https://yldepweb.ylh.gov.tw/department/28/nurseform/%E5%BF%83%E8%A1%80%E7%AE%A1%E7%96%BE%E7%97%85%E8%88%87%E7%85%A7%E8%AD%B7/4%E5%BF%83%E8%87%9F%E7%97%85%E7%97%85%E4%BA%BA%E7%9A%84%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%E4%BF%9D%E5%81%A51080906.pdf)\
 [心衰竭衛教](https://health.ntuh.gov.tw/health/forms/txt/22_%E5%BF%83%E8%A1%B0%E7%AB%AD%E8%A1%9B%E6%95%99.pdf)\
