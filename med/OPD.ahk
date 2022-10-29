@@ -1,4 +1,29 @@
-﻿; 分號開頭是註解
+#SingleInstance, force
+
+Gui, OPD_hotkey:New,+Resize  +MinSize640x +HwndGuiHwnd ,OPD_hotkey
+Gui, Add, Text,, d' + ENTER	=	Write down current date
+Gui, Add, Text,, LCtrl + 1		=	Calculate LDL (from info in seleted text)
+Gui, Add, Text,, neck' + ENTER	=	Create neck PE template text
+Gui, Add, Text,, pe' + ENTER	=	Create general PE template text
+Gui, Add, Text,, ne' + ENTER	=	Create general NE template text
+Gui, Add, Text,, ros' + ENTER	=	Create general ROS template text
+Gui, Add, Text,, stroke' + ENTER	=	Stroke risk assessment template text
+Gui, Add, Text,, head' + ENTER	=	Headache assessment template text
+Gui, Add, Text,, Alt + n		=	Open notepad
+Gui, Add, Text,, Alt + i		=	Google search for ICD-10-CM codes (from keywords in seleted text)
+Gui, Add, Text,, Alt + u		=	Uptodate search (for seleted text)
+Gui, Add, Text,, Alt + p		=	Google image search (for seleted text)
+
+
+
+Gui, Show
+RETURN   ; === end of auto-execute section ===
+
+GuiClose: 
+    ExitApp
+return
+
+; 分號開頭是註解
 ;********************************************************************************************
 
 ;日期
@@ -6,7 +31,6 @@
   d = %A_YYYY%/%A_MM%/%A_DD%
   Send, =={enter}%d%:{enter}
   return
-
 
 ;********************************************************************************************
 
@@ -129,7 +153,5 @@ StringReplace, clipboard, clipboard, %A_SPACE%, +, All
 Run, https://www.google.com/search?tbm=isch&q=%clipboard%
 Return
 
-
- 
 
 
