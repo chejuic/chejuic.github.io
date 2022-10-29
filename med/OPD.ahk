@@ -3,6 +3,7 @@
 Gui, OPD_hotkey:New,+Resize  +MinSize640x +HwndGuiHwnd ,OPD_hotkey
 Gui, Add, Text,, d' + ENTER	=	Write down current date
 Gui, Add, Text,, LCtrl + 1		=	Calculate LDL (from info in seleted text)
+Gui, Add, Text,, LCtrl + 2		=	Calculate annual eGFR change (from info in seleted text)
 Gui, Add, Text,, neck' + ENTER	=	Create neck PE template text
 Gui, Add, Text,, pe' + ENTER	=	Create general PE template text
 Gui, Add, Text,, ne' + ENTER	=	Create general NE template text
@@ -33,6 +34,7 @@ return
   return
 
 ;********************************************************************************************
+;*******************Calculate LDL (from info in seleted text)
 
 LCtrl & 1::
 ; Create the array, initially empty:
@@ -82,6 +84,76 @@ Send, ^v
 ClipWait
 Return
 
+;********************************************************************************************
+;*******************Calculate eGFR decrease yearly rate
+
+LCtrl & 2::
+; Create the array, initially empty:
+Array := [] ;
+
+clipboard =
+Send, ^c
+ClipWait
+
+; Write to the array:
+Loop, parse, clipboard, `r,`n ; This loop retrieves each line from clipboard, one at a time.
+{
+    Array.Push(A_LoopField) ; Append this line to the array.
+}
+
+; Read from the array:
+array1 := []
+labdate := []
+labitem := []
+labvalue := []
+eGFRcount = 0
+eGFRdate := []
+eGFRdatevalue := [] ; 以第一個日期當基準來計算相隔天數
+X := [] ; X 就是 eGFRdatevalue，只是多設立一個X比較看得懂一元線性迴歸的計算
+tmpdate1 = 0
+tmpdate2 = 0
+eGFRvalue := []
+Y := [] ; Y 就是 eGFRvalue，只是多設立一個Y比較看得懂一元線性迴歸的計算
+SigmaX2 = 0
+SigmaX = 0
+SigmaY = 0
+SigmaXY = 0 ; (不是Sxy，而是Sigma X乘Y 的意思)
+Sxx = 0 ; 為了接下來一元線性迴歸的計算
+Sxy = 0 ; 為了接下來一元線性迴歸的計算
+for index, element in Array ; Enumeration is the recommended approach in most cases.
+{
+    array1 := StrSplit(element, ": ") ; 冒號前面是日期和項目名稱，後面是數值和單位
+	labdate[index] := SubStr(array1[1], 2, 8) ; 前12碼是日期 (從第2碼開始的8碼為yyyymmdd)
+	labitem[index] := SubStr(array1[1], 12) ; 前12碼是日期，之後是項目名稱
+	labvalue[index] := strsplit(array1[2],"   ")[1]
+	if (Instr(labitem[index],"GFR ")) {
+		eGFRcount =  % eGFRcount + 1
+		eGFRdate[eGFRcount] :=  labdate[index]
+		eGFRvalue[eGFRcount] :=  labvalue[index]
+		Y[eGFRcount] := eGFRvalue[eGFRcount]*1 ; Y 就是 eGFRvalue，只是多設立一個Y比較看得懂一元線性迴歸的計算
+		tmpdate1 = % eGFRdate[eGFRcount]
+		tmpdate2 = % eGFRdate[1]
+		EnvSub, tmpdate1, %tmpdate2%, days
+		eGFRdatevalue[eGFRcount] :=  tmpdate1
+		X[eGFRcount] := eGFRdatevalue[eGFRcount]*1 ; X 就是 eGFRdatevalue，只是多設立一個X比較看得懂一元線性迴歸的計算
+		;一元線性迴歸的計算: y = a + bx, 其中我們要計算的是 b (=Sxy/Sxx)，並且 b * 365.25天 就是年化eGFR下降速率
+		SigmaX2 = % SigmaX2 + X[eGFRcount]*X[eGFRcount]
+		SigmaX = % SigmaX + X[eGFRcount]
+		SigmaY = % SigmaY + Y[eGFRcount]
+		SigmaXY = % SigmaXY + X[eGFRcount]*Y[eGFRcount]
+		
+		;MsgBox % "SigmaX2, SigmaX, SigmaY, SigmaXY = " . (SigmaX2) . ", " . (SigmaX) . ", " . (SigmaY) . ", " . (SigmaXY)
+	}
+}
+Sxx = % SigmaX2 - (SigmaX*SigmaX/eGFRcount)
+Sxy = % SigmaXY - (SigmaX*SigmaY/eGFRcount)
+clipboard := clipboard . "`n" . "annual eGFR change: " . (365.25*Sxy/Sxx)
+ClipWait
+Send, ^v
+ClipWait
+Return
+
+;********************************************************************************************
 
 ;頸部理學檢查
 ::neck'::Neck ROM full, pain at{enter}Spurling- {enter}Lhermitt -{enter}Facet joint provocation:{enter}Stretch pain: {enter}Tenderness:
