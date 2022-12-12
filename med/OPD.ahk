@@ -60,25 +60,27 @@ labitem := []
 labvalue := []
 for index, element in Array ; Enumeration is the recommended approach in most cases.
 {
-    array1 := StrSplit(element, ": ") ; 冒號前面是日期和項目名稱，後面是數值和單位
-labitem[index] := SubStr(array1[1], 12) ; 前12碼是日期，之後是項目名稱
-labvalue[index] := strsplit(array1[2],"   ")[1]
-if (Instr(labitem[index],"TG")) {
-TG = % labvalue[index]
-}
-if (Instr(labitem[index],"HDL")) {
-HDL = % labvalue[index]
-}
-if (Instr(labitem[index],"Cholesterol")) {
-TCHO = % labvalue[index]
-}
-;MsgBox % (labitem[index])
+	array1 := StrSplit(element, ": ") ; 冒號前面是日期和項目名稱，後面是數值和單位
+	;MsgBox % (array1[1])
+	labitem[index] := SubStr(array1[1], 11) ; 前10碼是日期，之後是項目名稱
+	;MsgBox % (labitem[index])
+	labvalue[index] := strsplit(array1[2]," ")[1]
+	;MsgBox % (labvalue[index])
+	if (Instr(labitem[index],"TG")) {
+	TG = % labvalue[index]
+	}
+	if (Instr(labitem[index],"HDL")) {
+	HDL = % labvalue[index]
+	}
+	if (Instr(labitem[index],"CHO")) {
+	TCHO = % labvalue[index]
+	}
 }
 ;MsgBox TG =  %TG%
 ;MsgBox HDL =  %HDL%
 ;MsgBox TCHO =  %TCHO%
 ;MsgBox % substr(array1[1], 1, 11) . "LDL: " . (TCHO-HDL-0.2*TG)
-clipboard := clipboard . "`n" . substr(array1[1], 1, 11) . "LDL(calculated): " . (TCHO-HDL-0.2*TG)
+clipboard := clipboard . "`n" . "LDL(calculated): " . (TCHO-HDL-0.2*TG)
 ClipWait
 Send, ^v
 ClipWait
@@ -123,18 +125,22 @@ Sxy = 0 ; 為了接下來一元線性迴歸的計算
 for index, element in Array ; Enumeration is the recommended approach in most cases.
 {
     array1 := StrSplit(element, ": ") ; 冒號前面是日期和項目名稱，後面是數值和單位
-	labdate[index] := SubStr(array1[1], 2, 8) ; 前12碼是日期 (從第2碼開始的8碼為yyyymmdd)
-	labitem[index] := SubStr(array1[1], 12) ; 前12碼是日期，之後是項目名稱
-	labvalue[index] := strsplit(array1[2],"   ")[1]
-	if (Instr(labitem[index],"GFR ")) {
+	labdate[index] := SubStr(array1[1], 2, 8) ; 前10碼是日期 (從第2碼開始的8碼為yyyymmdd)
+	;MsgBox % "labdate = " . (labdate[index])
+	labitem[index] := SubStr(array1[1], 11) ; 前10碼是日期，之後是項目名稱
+	;MsgBox % "labitem = " . (labitem[index])
+	labvalue[index] := strsplit(array1[2]," ")[1]
+	if (Instr(labitem[index],"GFR")) {
 		eGFRcount =  % eGFRcount + 1
 		eGFRdate[eGFRcount] :=  labdate[index]
 		eGFRvalue[eGFRcount] :=  labvalue[index]
 		Y[eGFRcount] := eGFRvalue[eGFRcount]*1 ; Y 就是 eGFRvalue，只是多設立一個Y比較看得懂一元線性迴歸的計算
+		;MsgBox % "Y = " . (Y[eGFRcount])
 		tmpdate1 = % eGFRdate[eGFRcount]
 		tmpdate2 = % eGFRdate[1]
 		EnvSub, tmpdate1, %tmpdate2%, days
 		eGFRdatevalue[eGFRcount] :=  tmpdate1
+		;MsgBox % "eGFRdatevalue = " . (eGFRdatevalue[eGFRcount])
 		X[eGFRcount] := eGFRdatevalue[eGFRcount]*1 ; X 就是 eGFRdatevalue，只是多設立一個X比較看得懂一元線性迴歸的計算
 		;一元線性迴歸的計算: y = a + bx, 其中我們要計算的是 b (=Sxy/Sxx)，並且 b * 365.25天 就是年化eGFR下降速率
 		SigmaX2 = % SigmaX2 + X[eGFRcount]*X[eGFRcount]
@@ -224,6 +230,5 @@ Sleep 50
 StringReplace, clipboard, clipboard, %A_SPACE%, +, All
 Run, https://www.google.com/search?tbm=isch&q=%clipboard%
 Return
-
 
 
