@@ -30,7 +30,11 @@ return
 ;日期
 ::d'::
   d = %A_YYYY%/%A_MM%/%A_DD%
-  Send, =={enter}%d%:{enter}
+  tmp = % (clipboard)
+  clipboard := "==" . "`n" . (d) . ":`n" 
+  ClipWait
+  Send, ^v
+  clipboard := (tmp)
   return
 
 ;********************************************************************************************
