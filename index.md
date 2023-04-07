@@ -12,7 +12,7 @@ Source: (mostly from NTUH)\
 [快篩陽性評估醫療院所](https://www.hcshb.gov.tw/News_Content.aspx?n=78&s=90070)
 
 ## Preventive medicine
-[成人疫苗](https://www.tafm.org.tw/ehc-tafm/s/w/news_news/article/370aab2c5d22417ab1f1eb68600d5b91)\
+[成人疫苗](https://drive.google.com/file/d/1iFWm9QzhE8BGnUA3GmJ351NKdrxW99fm/view?usp=share_link)\
 [電子菸與加熱菸](https://health99.hpa.gov.tw/article/18202)
 
 ## Weight control
