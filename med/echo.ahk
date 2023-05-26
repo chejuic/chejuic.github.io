@@ -15,6 +15,7 @@ Gui, Add, Button, x320 y75 w100 h30 gButtonHypos, hypos
 Gui, Add, Button, x5 y110 w100 h30 gButtonAn, an
 Gui, Add, Button, x110 y110 w100 h30 gButtonAns, ans
 Gui, Add, Button, x5 y145 w100 h30 gButtonPmask, Pmask
+Gui, Add, Button, x110 y145 w100 h30 gButtonNs, Ns
 
 Gui, Show
 RETURN
@@ -194,6 +195,19 @@ ButtonPmask:
   tmp = % (clipboard)
   ClipWait
   Clipboard := "Partially masked by gas"
+  ClipWait
+  Send, ^v
+  ClipWait
+  Send, {enter}
+  clipboard := (tmp)
+  Gui, Show, NoActivate  ; show the GUI again without activating it
+return
+
+ButtonNs:
+  Gui, Hide  ; hide the GUI
+  tmp = % (clipboard)
+  ClipWait
+  Clipboard := "Normal size(s)"
   ClipWait
   Send, ^v
   ClipWait
