@@ -17,6 +17,7 @@ Source: (mostly from NTUH)\
 
 ## Weight control
 [體重管理學習手冊](https://drive.google.com/file/d/1ZUlAEBU3SH0rW2VJU88-EHs1zFgWZHww/)\
+[飲食紀錄8天](https://drive.google.com/file/d/1Q9stckjbtfYL3ca9iaOchyAhNW95ZKs0/)\
 [每日熱量計算](https://km.hpa.gov.tw/obesity/TC/DayHeatCalculate.aspx)\
 [運動計算機](https://km.hpa.gov.tw/Obesity/TC/SportCalculate.aspx)\
 [成人肥胖防治指引手冊](https://drive.google.com/file/d/1-_ztfkVxLSkYRqhGc9K40UM4NZiR4mfb/)\
