@@ -122,6 +122,7 @@ Source: (mostly from NTUH)\
 [痛風(圖文版)](https://health.ntuh.gov.tw/health/forms/04_%E7%97%9B%E9%A2%A8.pdf)
 
 ## PSY
+[精簡版CBT-I](https://docs.google.com/document/d/1smAlNVVDot610osOc9i_4h4PSDfVu9p3OgrkxxBY_Po/)\
 [夜眠保養與失眠症](https://health.ntuh.gov.tw/health/forms/txt/18_%E5%A4%9C%E7%9C%A0%E4%BF%9D%E9%A4%8A%E8%88%87%E5%A4%B1%E7%9C%A0%E7%97%87.pdf)\
 [夜眠保養與失眠症(圖文版)](https://health.ntuh.gov.tw/health/forms/18_%E5%A4%9C%E7%9C%A0%E4%BF%9D%E9%A4%8A%E8%88%87%E5%A4%B1%E7%9C%A0%E7%97%87.pdf)\
 [睡眠日誌](https://www.ntuh.gov.tw/ckfinder_file/SLP/files/%E7%9D%A1%E7%9C%A0%E6%97%A5%E8%AA%8C.pdf)\
