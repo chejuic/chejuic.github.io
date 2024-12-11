@@ -139,7 +139,8 @@ Source: (mostly from NTUH)\
 [五十肩復健](https://github.com/chejuic/chejuic.github.io/raw/main/med/新竹醫院-新聞稿-五十肩.pdf)\
 [預防頸椎關節退化](https://health.ntuh.gov.tw/health/new/6329.html)\
 [下背痛保健](https://health.ntuh.gov.tw/health/new/6364.html)\
-[顳顎關節障礙](https://www.ntuh.gov.tw/ckfinder_file/ENT/files/%E9%A1%B3%E9%A1%8E%E9%97%9C%E7%AF%80%E7%82%8E.pdf)
+[顳顎關節障礙](https://www.ntuh.gov.tw/ckfinder_file/ENT/files/%E9%A1%B3%E9%A1%8E%E9%97%9C%E7%AF%80%E7%82%8E.pdf)\
+[無症狀或輕微症狀之肌酸激酶（CK）升高](https://docs.google.com/document/d/1cERIoJvgMMVv_JkjPNxWgYs7xFdkhjffx15id67NOsI/)
 
 ## Women's health
 [凱格爾運動_女生版](https://www.ylh.gov.tw/?aid=612&pid=50&page_name=detail&iid=414)\
