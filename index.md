@@ -13,6 +13,7 @@ Source: (mostly from NTUH)\
 
 ## Preventive medicine
 [成人疫苗](https://drive.google.com/file/d/1iFWm9QzhE8BGnUA3GmJ351NKdrxW99fm/view?usp=share_link)\
+[成人脾臟切除者的疫苗接種](https://drive.google.com/file/d/13DM9Uen6wzWbovpiGHpKE3nSevsEYXDn/view?usp=sharing)\
 [電子菸與加熱菸](https://health99.hpa.gov.tw/article/18202)
 
 ## Weight control
