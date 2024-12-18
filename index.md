@@ -87,6 +87,7 @@ Source: (mostly from NTUH)\
 
 ## Respiratory
 [低劑量電腦斷層共識宣言2020](https://github.com/chejuic/chejuic.github.io/raw/main/med/LDCT肺癌篩檢共識宣言.pdf)\
+[LUNG-RADS分級+台灣版修正](https://drive.google.com/file/d/1Vx-R3TUtYF9IjWfivS7jFM1VVmF5jlQe/view?usp=sharing)\
 [肺結節計算機](https://fleischnerapp.com/)\
 [氣喘肺功能紀錄卡](http://www.taiwanasthma.com.tw/uploads/1/0/3/1/103176700/%E8%82%BA%E5%8A%9F%E8%83%BD%E7%B4%80%E9%8C%84%E5%8D%A1.pdf)\
 [慢性阻塞性肺疾病自我照顧指導](https://www.hch.gov.tw/?aid=626&pid=3&page_name=detail&iid=35)
