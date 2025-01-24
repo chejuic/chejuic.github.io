@@ -12,6 +12,7 @@ Source: (mostly from NTUH)\
 [快篩陽性評估醫療院所](https://www.hcshb.gov.tw/News_Content.aspx?n=78&s=90070)
 
 ## Preventive medicine
+[成人預防保健880方案衛教資源](https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=1115&pid=18732)\
 [成人疫苗](https://drive.google.com/file/d/1iFWm9QzhE8BGnUA3GmJ351NKdrxW99fm/view?usp=share_link)\
 [成人脾臟切除者的疫苗接種](https://drive.google.com/file/d/13DM9Uen6wzWbovpiGHpKE3nSevsEYXDn/view?usp=sharing)\
 [電子菸與加熱菸](https://health99.hpa.gov.tw/article/18202)
