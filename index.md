@@ -160,7 +160,8 @@ Source: (mostly from NTUH)\
 [全民身體活動指引-銀髮族篇](https://github.com/chejuic/chejuic.github.io/raw/main/med/全民身體活動指引-銀髮族篇.pdf)\
 [提肛運動_男生版](https://www.ylh.gov.tw/?aid=612&pid=50&page_name=detail&iid=415)\
 [凱格爾運動_女生版](https://www.ylh.gov.tw/?aid=612&pid=50&page_name=detail&iid=414)\
-[銀髮族口腔保健](https://github.com/chejuic/chejuic.github.io/raw/main/med/老年口腔保健_摘錄.pdf.pdf)
+[銀髮族口腔保健](https://github.com/chejuic/chejuic.github.io/raw/main/med/老年口腔保健_摘錄.pdf.pdf)\
+[骨質疏鬆症治療選項](https://github.com/chejuic/chejuic.github.io/raw/main/med/Amgen_SDM_0515.pdf)
 
 ## Palliative
 [Palliative Prognostic Score (PaP)](https://www.mdapp.co/palliative-prognostic-score-pap-calculator-401/)
