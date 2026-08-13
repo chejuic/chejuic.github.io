@@ -170,3 +170,10 @@ Source: (mostly from NTUH)\
 ## Reference sites
 [NTUH Health Center](https://health.ntuh.gov.tw/health/hrc_v3/nForm4.aspx?apID=HrcForm1.htm)
 
+# **Tools**
+書籤小工具（bookmarklet）：用瀏覽器打開安裝頁，把按鈕拖到書籤列即可，不必安裝任何軟體。
+在院內系統的頁面上按一下書籤就會作用；它只在你已登入的那個分頁裡跑，不會傳送任何資料到外部。
+
+[門診工具列 clinic toolbar](/med/clinic-toolbar.html)　（醫令頁一鍵開報告、把 SOAP 嵌在同一畫面、帶入歷次藥物與醫令）\
+&nbsp;&nbsp;&nbsp;※ 這支會**代按**「勾套餐 / 歷次 / 暫存勾選醫令 / 確定帶入」，帶入後請自行確認畫面內容再送出；不碰診斷與 SOAP 內文。\
+[健檢工具列 hmc toolbar](/med/hmc-toolbar.html)　（打病歷號跳健檢報告頁 / 心電圖頁 / 第四代報告，純跳轉不代按）
