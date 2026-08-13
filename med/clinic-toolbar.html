@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>門診工具列 v1 — 安裝</title>
+<style>
+ body{font:16px/1.75 "Microsoft JhengHei",sans-serif;max-width:760px;margin:40px auto;
+      padding:0 20px;color:#1f2a37}
+ h1{color:#1f4e8c;font-size:26px;margin-bottom:4px}
+ .sub{color:#6b7280;margin-top:0}
+ .drag{display:inline-block;background:#1f4e8c;color:#fff;text-decoration:none;
+       padding:12px 22px;border-radius:10px;font-weight:700;font-size:17px;
+       box-shadow:0 3px 10px rgba(0,0,0,.2)}
+ .box{background:#f2f5fa;border:1px solid #d6dde6;border-radius:10px;padding:16px 20px;margin:22px 0}
+ code{background:#eef2f7;padding:2px 6px;border-radius:4px;font-size:14px}
+ table{border-collapse:collapse;width:100%;margin:10px 0}
+ td,th{border:1px solid #d6dde6;padding:7px 10px;text-align:left;font-size:15px}
+ th{background:#eef2f7}
+ .muted{color:#6b7280;font-size:14px}
+</style>
+</head>
+<body>
+<h1>門診工具列 v1</h1>
+<p class="sub">醫令頁 · SOAP 頁 · 第四代報告，三邊一鍵互跳</p>
+
+<div class="box">
+<p><b>安裝：把下面這顆拖到書籤列</b>（拖一下就好，不必下載、不必安裝任何東西）</p>
+<p><a class="drag" href="javascript:(function () { 'use strict'; var ID = 'ntuh-clinic-toolbar'; if (document.getElementById(ID)) { document.getElementById(ID).remove(); var oldPane = document.getElementById(ID + '-soappane'); if (oldPane) { oldPane.remove(); } window.__ntuhToolbarOn = false; return; } var HOSPITALS = { 'hchhisaw.ntuh.gov.tw': { name: '新竹', gen4: 'hchihisaw.ntuh.gov.tw' }, 'hbiohisaw.ntuh.gov.tw': { name: '生醫', gen4: 'hbioihisaw.ntuh.gov.tw' } }; var host = location.hostname.toLowerCase(); var hosp = HOSPITALS[host]; var PAGE = /\/WebApplication\/Clinics\/(ConfirmDiagnosisOrder|EnterChiefCompliant|OpenClinicsByExamine)\.aspx/i; var mm = PAGE.exec(location.pathname); var page = mm ? mm[1] : null; var qs = new URLSearchParams(location.search); var session = qs.get('SESSION'); var account = qs.get('AccountIDSE') || ''; if (!hosp || !page || !session) { alert('門診工具列：這一頁不是門診畫面，沒有動作。\n網域 ' + host + '\n頁面 ' + (page || '(不符)') + '\nSESSION ' + (session ? '有' : '無')); return; } var P = 'NTUHWeb1_EnterPackageOrders1_'; var S = P + 'PackageOrderSearch1_'; var IDS = { showPackage: P + 'CheckBoxShowEnterPackageOrder', prevAccount: S + 'btnPreviousAccount', tempOrders: S + 'btnSelectTempOrders', insert: P + 'btnInsertOrders' }; function g(id) { return document.getElementById(id); } function vis(e) { return !!(e &amp;&amp; e.offsetParent !== null); } function say(t) { var s = g(ID + '-say'); if (s) { s.textContent = t; } } function patientInfo() { var head = (document.body.innerText || '').slice(0, 400); var pid = g('NTUHWeb1_hdfNowID'); var chartM = head.match(/(^|[\s(])([A-Z]{1,2}\d{5,7})(?!\d)/); var nameM = head.match(/([一-鿿]{2,5})\s*\(\s*[MF]\s*,/); return { person: pid ? (pid.value || '').trim() : '', chart: chartM ? chartM[2] : '', name: nameM ? nameM[1] : '' }; } function rowsOf(kind) { return document.querySelectorAll('[id*=dlsSearch' + kind + '][id*=cbxSelect]'); } function countRows() { return { drugs: rowsOf('Drugs').length, orders: rowsOf('Orders').length }; } function tickAll(kind) { var rows = rowsOf(kind); for (var i = 0; i &lt; rows.length; i++) { rows[i].checked = true; } var d = g(S + 'cbxSelect' + kind + 'Ditto'); if (d) { d.checked = rows.length &gt; 0; } return rows.length; } function gen4Url(key) { return 'https://' + hosp.gen4 + '/WebApplication/ElectronicMedicalReportViewer/MedicalReportContent.aspx?SESSION=' + encodeURIComponent(session) + '&amp;PersonID=' + encodeURIComponent(key); } function clinicUrl(pageName) { return 'https://' + host + '/WebApplication/Clinics/' + pageName + '.aspx?SESSION=' + encodeURIComponent(session) + '&amp;AccountIDSE=' + encodeURIComponent(account); } var PANE = ID + '-soappane'; var SOAP_S = 'NTUHWeb1_tabSOAP_tabPanel1_EditSubjective_TextboxInput'; function paneOn() { try { return localStorage.getItem('ntuh_toolbar_soappane') !== '0'; } catch (e) { return true; } } function setPaneOn(v) { try { localStorage.setItem('ntuh_toolbar_soappane', v ? '1' : '0'); } catch (e) { } } function paneH() { var v = 45; try { v = parseInt(localStorage.getItem('ntuh_toolbar_soaph'), 10) || 45; } catch (e) { } return Math.min(80, Math.max(20, v)); } function setPaneH(v) { try { localStorage.setItem('ntuh_toolbar_soaph', String(Math.min(80, Math.max(20, v)))); } catch (e) { } } function liftBar() { var bar = g(ID); if (!bar) { return; } var pane = g(PANE); bar.style.bottom = (pane ? 'calc(' + paneH() + 'vh + 14px)' : '14px'); } function closePane() { var p = g(PANE); if (p) { p.remove(); } liftBar(); } function openPane() { if (page !== 'ConfirmDiagnosisOrder' || !account) { return; } if (g(PANE)) { return; } var wrap = document.createElement('div'); wrap.id = PANE; wrap.style.cssText = ['position:fixed', 'left:0', 'right:0', 'bottom:0', 'height:' + paneH() + 'vh', 'z-index:2147483000', 'background:#fff', 'box-shadow:0 -3px 12px rgba(0,0,0,.28)', 'display:flex', 'flex-direction:column'].join(';'); var grip = document.createElement('div'); grip.style.cssText = ['height:20px', 'flex:0 0 20px', 'background:#1f4e8c', 'color:#fff', 'font:12px/20px &quot;Microsoft JhengHei&quot;,sans-serif', 'text-align:center', 'cursor:ns-resize', 'user-select:none'].join(';'); grip.textContent = '⇕ SOAP（拖曳調整高度）'; wrap.appendChild(grip); var dragging = false; grip.addEventListener('mousedown', function (e) { dragging = true; e.preventDefault(); }); document.addEventListener('mousemove', function (e) { if (!dragging) { return; } var h = Math.round((window.innerHeight - e.clientY) / window.innerHeight * 100); h = Math.min(80, Math.max(20, h)); wrap.style.height = h + 'vh'; setPaneH(h); liftBar(); }); document.addEventListener('mouseup', function () { dragging = false; }); var fr = document.createElement('iframe'); fr.id = PANE + '-frame'; fr.src = clinicUrl('EnterChiefCompliant'); fr.style.cssText = 'flex:1 1 auto;width:100%25;border:0'; fr.addEventListener('load', function () { try { var d = fr.contentDocument; if (!d) { return; } if (d.location.href.indexOf('EnterChiefCompliant') &lt; 0) { say('SOAP 面板被導走了（多半是 SESSION 過期），請重新登入後再按書籤'); return; } var tabHdr = d.querySelector('.ajax__tab_header') || d.querySelector('.ajax__tab_tab'); var target = tabHdr || d.getElementById(SOAP_S); if (target) { target.scrollIntoView({ block: 'start' }); try { d.defaultView.scrollBy(0, -6); } catch (e2) { } } } catch (e) { } }); wrap.appendChild(fr); document.body.appendChild(wrap); liftBar(); } function togglePane() { if (g(PANE)) { setPaneOn(false); closePane(); say('已收起 SOAP 面板'); } else { setPaneOn(true); openPane(); say('SOAP 面板已展開（框內就是 SOAP 頁，可直接打字存檔）'); } render(); } function autoOpen() { try { return localStorage.getItem('ntuh_toolbar_autoopen') !== '0'; } catch (e) { return true; } } function setAutoOpen(v) { try { localStorage.setItem('ntuh_toolbar_autoopen', v ? '1' : '0'); } catch (e) { } } function refocusSelf() { try { window.name = window.name || 'ntuh_order'; window.open('', window.name); } catch (e) { } } function prepare() { var p = patientInfo(); var key = p.person || p.chart; var done = []; if (paneOn()) { openPane(); done.push('SOAP 面板'); } if (autoOpen()) { if (key) { window.open(gen4Url(key), 'ntuh_gen4'); done.push('報告'); } setTimeout(refocusSelf, 350); } var cb = g(IDS.showPackage); var needTick = !!(cb &amp;&amp; !cb.checked); if (needTick) { cb.click(); done.push('勾套餐'); } setTimeout(function () { var pv = g(IDS.prevAccount); if (vis(pv)) { pv.click(); done.push('歷次'); } say('已做：' + (done.join('、') || '無') + '　→ 請挑一筆歷次'); }, needTick ? 2200 : 250); } function bringIn() { var nd = tickAll('Drugs'); var no = tickAll('Orders'); if (!nd &amp;&amp; !no) { say('畫面上沒有歷次的藥物或醫令，先挑一筆歷次'); return; } say('已勾 藥物 ' + nd + ' 項、醫令 ' + no + ' 項（診斷與 SOAP 不動），暫存中…'); setTimeout(function () { var t = g(IDS.tempOrders); if (vis(t)) { t.click(); setTimeout(function () { render('已暫存 藥物 ' + nd + ' 項、醫令 ' + no + ' 項'); }, 2500); } else { say('找不到「暫存勾選醫令」按鈕，沒有動作'); } }, 700); } function render(msg) { var keep = msg; var old = g(ID); if (old) { if (keep === undefined) { var s0 = g(ID + '-say'); keep = s0 ? s0.textContent : ''; } old.remove(); } var p = patientInfo(); var n = countRows(); var bar = document.createElement('div'); bar.id = ID; bar.style.cssText = ['position:fixed', 'right:14px', 'bottom:14px', 'z-index:2147483647', 'background:#1f4e8c', 'color:#fff', 'border-radius:10px', 'box-shadow:0 4px 14px rgba(0,0,0,.35)', 'padding:8px 10px', 'font:13px/1.5 &quot;Microsoft JhengHei&quot;,sans-serif', 'user-select:none', 'max-width:440px'].join(';'); var who = document.createElement('div'); who.style.cssText = 'font-size:12px;opacity:.85;margin-bottom:6px;white-space:nowrap'; who.textContent = (p.name || '(未取得姓名)') + (p.chart ? '　' + p.chart : '') + '　' + hosp.name; bar.appendChild(who); var row = document.createElement('div'); row.style.cssText = 'display:flex;gap:6px;align-items:center;flex-wrap:wrap'; bar.appendChild(row); function btn(label, on, fn, strong) { var b = document.createElement('button'); b.type = 'button'; b.textContent = label; b.style.cssText = ['font:700 13px/1 &quot;Microsoft JhengHei&quot;,sans-serif', 'padding:8px 12px', 'border-radius:7px', 'border:0', 'cursor:' + (on ? 'pointer' : 'not-allowed'), 'background:' + (on ? (strong ? '#ffd24d' : '#fff') : '#8ea6c6'), 'color:' + (on ? '#1f4e8c' : '#dfe7f1'), 'opacity:' + (on ? '1' : '.7')].join(';'); if (on) { b.addEventListener('click', fn); } row.appendChild(b); return b; } var canBring = (n.drugs + n.orders) &gt; 0; btn('帶入這一次' + (canBring ? '（藥 ' + n.drugs + '・令 ' + n.orders + '）' : ''), canBring, bringIn, true); if (vis(g(IDS.insert))) { btn('確定帶入', true, function () { g(IDS.insert).click(); say('已按下帶入'); }, true); } btn('準備', page === 'ConfirmDiagnosisOrder', prepare); btn('報告', !!(p.person || p.chart), function () { window.open(gen4Url(p.person || p.chart), 'ntuh_gen4'); }); if (page === 'ConfirmDiagnosisOrder') { btn(g(PANE) ? 'SOAP ▼收起' : 'SOAP ▲展開', !!account, togglePane, !g(PANE)); btn('SOAP↗', !!account, function () { window.open(clinicUrl('EnterChiefCompliant'), 'ntuh_soap'); }); } else { btn('SOAP', page !== 'EnterChiefCompliant' &amp;&amp; !!account, function () { window.open(clinicUrl('EnterChiefCompliant'), 'ntuh_soap'); }); } btn('醫令', page !== 'ConfirmDiagnosisOrder' &amp;&amp; !!account, function () { window.open(clinicUrl('ConfirmDiagnosisOrder'), 'ntuh_order'); }); var lab = document.createElement('label'); lab.style.cssText = 'font-size:12px;opacity:.9;display:flex;align-items:center;gap:3px;cursor:pointer'; var chk = document.createElement('input'); chk.type = 'checkbox'; chk.checked = autoOpen(); chk.addEventListener('change', function () { setAutoOpen(chk.checked); say(chk.checked ? '按書籤時會自動開報告與 SOAP' : '已關閉自動開分頁，要看再自己按'); }); lab.appendChild(chk); lab.appendChild(document.createTextNode('自動開')); row.appendChild(lab); var x = document.createElement('span'); x.textContent = '✕'; x.style.cssText = 'margin-left:2px;cursor:pointer;opacity:.75;padding:0 4px'; x.addEventListener('click', function () { bar.remove(); window.__ntuhToolbarOn = false; }); row.appendChild(x); var line = document.createElement('div'); line.id = ID + '-say'; line.style.cssText = 'font-size:12px;opacity:.9;margin-top:6px;line-height:1.4'; line.textContent = keep || ''; bar.appendChild(line); document.body.appendChild(bar); liftBar(); } try { if (window.Sys &amp;&amp; Sys.WebForms &amp;&amp; Sys.WebForms.PageRequestManager &amp;&amp; !window.__ntuhToolbarHooked) { window.__ntuhToolbarHooked = true; Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function () { if (window.__ntuhToolbarOn) { setTimeout(function () { render(); }, 300); } }); } } catch (e) { } window.__ntuhToolbarOn = true; render(''); if (page === 'ConfirmDiagnosisOrder') { prepare(); } })();">門診工具列</a></p>
+<p class="muted">拖不動的話：在書籤列按右鍵 → 新增分頁 → 網址欄貼上
+<code>dist/bookmarklet.txt</code> 的內容。</p>
+</div>
+
+<h2>怎麼用</h2>
+<ol>
+<li>在門診<b>醫令開立</b>或 <b>SOAP</b> 畫面上，按書籤列的「門診工具列」。</li>
+<li>右下角出現一條工具列，上面先顯示<b>目前這位病人的姓名與病歷號</b>，看清楚再按。</li>
+<li>三顆按鈕各自開一個具名視窗，連按不會開出一堆分頁。搭配雙螢幕：一邊 SOAP、一邊醫令。</li>
+<li>再按一次書籤，或按工具列上的 ✕，就收起來。</li>
+</ol>
+
+<h2>它做什麼、不做什麼</h2>
+<table>
+<tr><th>做</th><td>依目前網址與頁面上的隱藏欄位，組出三個目標網址並開新視窗</td></tr>
+<tr><th>不做</th><td>不點頁面上任何按鈕、不填任何欄位、不觸發 postback、不存檔</td></tr>
+<tr><th>不做</th><td>沒有任何網路行為（無 fetch / XHR / sendBeacon / WebSocket），不送出任何資料</td></tr>
+</table>
+
+<h2>三道守門（任一不符就停手）</h2>
+<table>
+<tr><th>網域</th><td><code>hchhisaw.ntuh.gov.tw</code>（新竹）或 <code>hbiohisaw.ntuh.gov.tw</code>（生醫）</td></tr>
+<tr><th>頁面</th><td><code>ConfirmDiagnosisOrder</code> / <code>EnterChiefCompliant</code> / <code>OpenClinicsByExamine</code></td></tr>
+<tr><th>參數</th><td>網址必須有 <code>SESSION</code></td></tr>
+</table>
+<p class="muted">不符時只會跳一個說明視窗，不會有任何動作。</p>
+
+<h2>已知限制</h2>
+<ul>
+<li>SOAP 與醫令兩顆需要網址裡有 <code>AccountIDSE</code>；從診間清單直接按會是灰的，先點進病人再用。</li>
+<li>SOAP 頁沒有 PersonID，第四代報告會改用表頭的病歷號（兩種都吃，已實測）。</li>
+<li>省的是點擊數，不是伺服器回應時間。</li>
+</ul>
+
+<p class="muted">v1 建置日 2026-08-13 ｜ 書籤長度 10595 字元<br>
+原始碼 SHA-256 <code>968d24d954363e364045311ddef28f01ad17103296be51efd1563b467c0a918c</code>（對照 <code>clinic_toolbar.js</code>）</p>
+</body>
+</html>
