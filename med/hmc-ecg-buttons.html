@@ -1,0 +1,52 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>健檢心電圖快捷鍵 — 安裝</title>
+<style>
+ body{font:15px/1.7 "Microsoft JhengHei",sans-serif;max-width:720px;margin:40px auto;padding:0 20px;color:#123}
+ a.bm{display:inline-block;background:#1f4e8c;color:#fff;text-decoration:none;font-weight:700;
+      padding:11px 20px;border-radius:8px;box-shadow:0 3px 9px rgba(0,0,0,.25);margin:0 10px 6px 0}
+ a.bm.sub{background:#55708f}
+ code{background:#eef2f7;padding:2px 5px;border-radius:4px}
+ .box{background:#f6f8fb;border-left:4px solid #1f4e8c;padding:12px 16px;margin:20px 0}
+ table{border-collapse:collapse;width:100%;margin:14px 0}
+ td,th{border:1px solid #d4dbe4;padding:7px 10px;text-align:left;font-size:14px;vertical-align:top}
+</style>
+<h1>健檢心電圖快捷鍵</h1>
+<p>把按鈕<strong>拖到書籤列</strong>就裝好了，不必安裝任何軟體。通常只要第一顆。</p>
+<p><a class="bm" href="javascript:(function () {%0A  &#x27;use strict&#x27;;%0A  var HOST = &#x27;newhmc.ntuh.gov.tw&#x27;;%0A  var TEXT = %22無明顯異常%22;%0A  if (location.hostname.toLowerCase() !== HOST) {%0A    alert(&#x27;這顆書籤只在健檢系統（&#x27; + HOST + &#x27;）使用。\n沒有改任何東西。&#x27;);%0A    return;%0A  }%0A  var REQUIRED = [&#x27;Suggestion&#x27;];%0A  var missing = REQUIRED.filter(function (id) { return !document.getElementById(id); });%0A  if (missing.length) {%0A    alert(&#x27;這一頁找不到欄位：&#x27; + missing.join(&#x27;、&#x27;) + &#x27;\n請先開到判讀頁。沒有改任何東西。&#x27;);%0A    return;%0A  }%0A  function put(id, v) {%0A    var el = document.getElementById(id);%0A    if (!el) { return; }%0A    if (window.jQuery) {%0A      window.jQuery(el).val(v).change();%0A    } else {%0A      el.value = v;%0A      el.dispatchEvent(new Event(&#x27;input&#x27;, { bubbles: true }));%0A      el.dispatchEvent(new Event(&#x27;change&#x27;, { bubbles: true }));%0A    }%0A  }%0A  put(&#x27;Pain_index&#x27;, &#x27;0&#x27;);%0A  put(&#x27;Suggestion&#x27;, TEXT);%0A  put(&#x27;Dig_195&#x27;, &#x27;&#x27;);%0A  put(&#x27;DiagnosisMuse&#x27;, &#x27;&#x27;);%0A})();">無異常</a>
+<a class="bm sub" href="javascript:(function () {%0A  &#x27;use strict&#x27;;%0A  var HOST = &#x27;newhmc.ntuh.gov.tw&#x27;;%0A  var TEXT = %22若有胸悶心悸等症狀建議心臟科門診追蹤%22;%0A  if (location.hostname.toLowerCase() !== HOST) {%0A    alert(&#x27;這顆書籤只在健檢系統（&#x27; + HOST + &#x27;）使用。\n沒有改任何東西。&#x27;);%0A    return;%0A  }%0A  var REQUIRED = [&#x27;Suggestion&#x27;];%0A  var missing = REQUIRED.filter(function (id) { return !document.getElementById(id); });%0A  if (missing.length) {%0A    alert(&#x27;這一頁找不到欄位：&#x27; + missing.join(&#x27;、&#x27;) + &#x27;\n請先開到判讀頁。沒有改任何東西。&#x27;);%0A    return;%0A  }%0A  function put(id, v) {%0A    var el = document.getElementById(id);%0A    if (!el) { return; }%0A    if (window.jQuery) {%0A      window.jQuery(el).val(v).change();%0A    } else {%0A      el.value = v;%0A      el.dispatchEvent(new Event(&#x27;input&#x27;, { bubbles: true }));%0A      el.dispatchEvent(new Event(&#x27;change&#x27;, { bubbles: true }));%0A    }%0A  }%0A  put(&#x27;Pain_index&#x27;, &#x27;0&#x27;);%0A  put(&#x27;Suggestion&#x27;, TEXT);%0A  put(&#x27;Dig_195&#x27;, &#x27;&#x27;);%0A  put(&#x27;DiagnosisMuse&#x27;, &#x27;&#x27;);%0A})();">追蹤</a>
+<a class="bm sub" href="javascript:(function () {%0A  &#x27;use strict&#x27;;%0A  var HOST = &#x27;newhmc.ntuh.gov.tw&#x27;;%0A  var TEXT = %22Nothing particular[無].%22;%0A  if (location.hostname.toLowerCase() !== HOST) {%0A    alert(&#x27;這顆書籤只在健檢系統（&#x27; + HOST + &#x27;）使用。\n沒有改任何東西。&#x27;);%0A    return;%0A  }%0A  var REQUIRED = [&#x27;Suggestion&#x27;];%0A  var missing = REQUIRED.filter(function (id) { return !document.getElementById(id); });%0A  if (missing.length) {%0A    alert(&#x27;這一頁找不到欄位：&#x27; + missing.join(&#x27;、&#x27;) + &#x27;\n請先開到判讀頁。沒有改任何東西。&#x27;);%0A    return;%0A  }%0A  function put(id, v) {%0A    var el = document.getElementById(id);%0A    if (!el) { return; }%0A    if (window.jQuery) {%0A      window.jQuery(el).val(v).change();%0A    } else {%0A      el.value = v;%0A      el.dispatchEvent(new Event(&#x27;input&#x27;, { bubbles: true }));%0A      el.dispatchEvent(new Event(&#x27;change&#x27;, { bubbles: true }));%0A    }%0A  }%0A  put(&#x27;Pain_index&#x27;, &#x27;0&#x27;);%0A  put(&#x27;Suggestion&#x27;, TEXT);%0A  put(&#x27;Dig_195&#x27;, &#x27;&#x27;);%0A  put(&#x27;DiagnosisMuse&#x27;, &#x27;&#x27;);%0A})();">N.P.</a></p>
+
+<div class="box">
+<p><strong>怎麼用</strong></p>
+<ol>
+<li>在健檢系統 <code>newhmc.ntuh.gov.tw</code> 打開一位受檢者的<strong>心電圖判讀頁</strong>。</li>
+<li>按書籤列上的按鈕。</li>
+<li>確認畫面上的建議文字、MUSE 欄已清空，再<strong>自己按儲存</strong>。</li>
+</ol>
+</div>
+
+<h2>按一下會改哪幾格</h2>
+<table>
+<tr><th>Suggestion（建議）</th><td>填入按鈕上的那句話</td></tr>
+<tr><th>DiagnosisMuse（MUSE 判讀）</th><td><strong>清空</strong>。心電圖機自動帶入的英文判讀（例如報告上反黃的那幾行）
+就不會跟著進中文報告，不必再一行一行手動刪。</td></tr>
+<tr><th>Dig_195</th><td>清空</td></tr>
+<tr><th>Pain_index</th><td>設為 0</td></tr>
+</table>
+
+<table>
+<tr><th>無異常</th><td>建議填「無明顯異常」　最常用：心電圖正常時按這顆。</td></tr>
+<tr><th>追蹤</th><td>建議填「若有胸悶心悸等症狀建議心臟科門診追蹤」　有輕微變化、只需提醒症狀時追蹤。</td></tr>
+<tr><th>N.P.</th><td>建議填「Nothing particular[無].」　英文版的正常。</td></tr>
+</table>
+
+<h2>它不做什麼</h2>
+<table>
+<tr><th>不做</th><td>不按儲存、不送出、不換頁。改完的內容要你自己看過再存。</td></tr>
+<tr><th>不做</th><td>不在健檢系統以外的網站動作；這一頁找不到「建議」欄位就整顆不動，跳提示說明。其餘三格頁面上沒有就跳過（例如內科理學檢查頁沒有 MUSE 欄）。</td></tr>
+<tr><th>不做</th><td>沒有任何網路行為（無 fetch / XHR / sendBeacon / WebSocket）。</td></tr>
+</table>
+
+<p style="color:#667;font-size:13px">原始碼 SHA-256：<code>dd76b69354c3bd6d013473370498d42f0391419228a5b13495f0f7a3d461d8c1</code></p>
