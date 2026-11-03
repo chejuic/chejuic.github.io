@@ -1,0 +1,44 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>門診診斷書捷徑 — 安裝</title>
+<style>
+ body{font:15px/1.7 "Microsoft JhengHei",sans-serif;max-width:720px;margin:40px auto;padding:0 20px;color:#123}
+ a.bm{display:inline-block;background:#1f4e8c;color:#fff;text-decoration:none;font-weight:700;
+      padding:11px 20px;border-radius:8px;box-shadow:0 3px 9px rgba(0,0,0,.25);margin:0 10px 6px 0}
+ code{background:#eef2f7;padding:2px 5px;border-radius:4px}
+ .box{background:#f6f8fb;border-left:4px solid #1f4e8c;padding:12px 16px;margin:20px 0}
+ table{border-collapse:collapse;width:100%;margin:14px 0}
+ td,th{border:1px solid #d4dbe4;padding:7px 10px;text-align:left;font-size:14px;vertical-align:top}
+</style>
+<h1>門診診斷書捷徑</h1>
+<p>把按鈕<strong>拖到書籤列</strong>就裝好了，不必安裝任何軟體。</p>
+<p><a class="bm" href="javascript:(function(){var m=location.href.match(/SESSION=([^&amp;]+)/);if(!m){alert(&#x27;找不到 SESSION&#x27;);return;}var re=/\)\s*([A-Z]{1,3}\d{4,})\b/,c=(document.title.match(re)||document.body.innerText.match(re)||[])[1]||&#x27;&#x27;;var w=window.open(&#x27;https://hchhisaw.ntuh.gov.tw/WebApplication/Clinics/DiagCertificate_New.aspx?SESSION=&#x27;+m[1]+&#x27;&amp;PatClass=O&#x27;,&#x27;_blank&#x27;);if(!c||!w)return;var n=0,iv=setInterval(function(){try{var d=w.document,e=d.getElementById(&#x27;NTUHWeb1_txbChartnoQ&#x27;);if(e&amp;&amp;d.readyState==&#x27;complete&#x27;){e.value=c;e.focus();clearInterval(iv);}}catch(x){}if(++n&gt;100)clearInterval(iv);},200);})();">診斷書</a></p>
+
+<div class="box">
+<p><strong>怎麼用</strong></p>
+<ol>
+<li>在門診系統打開病人的看診畫面（網址列裡要有 <code>SESSION=</code>）。</li>
+<li>按書籤列上的「診斷書」。</li>
+<li>新分頁會開出新版診斷書頁，病歷號已經填在查詢欄；確認是這位病人，再自己按查詢、開立。</li>
+</ol>
+</div>
+
+<h2>它做什麼</h2>
+<table>
+<tr><th>做</th><td>沿用本頁網址的 <code>SESSION</code>，開新分頁到門診診斷書頁（<code>DiagCertificate_New.aspx</code>，門診 <code>PatClass=O</code>）。</td></tr>
+<tr><th>做</th><td>從本頁標題（找不到再看內文）抓「<code>)</code> 後面接的病歷號」，填進診斷書頁的病歷號查詢欄。抓不到就只開頁、不填。</td></tr>
+</table>
+
+<h2>它不做什麼</h2>
+<table>
+<tr><th>不做</th><td>不按查詢、不存檔、不列印。</td></tr>
+<tr><th>不做</th><td>網址裡沒有 <code>SESSION</code> 就跳提示，什麼都不開。</td></tr>
+<tr><th>不做</th><td>沒有任何網路行為（無 fetch / XHR / sendBeacon / WebSocket），只開院內診斷書頁。</td></tr>
+</table>
+
+<p>新分頁被擋下來的話，請允許門診系統的彈出式視窗。</p>
+
+<p>同一系列：<a href="hmc-toolbar.html">健檢工具列</a>・<a href="hmc-ecg-buttons.html">健檢心電圖快捷鍵</a>・<a href="clinic-toolbar.html">門診工具列</a></p>
+
+<p style="color:#667;font-size:13px">原始碼 SHA-256：<code>bdb390db38a08ba600997004a821aa37a62a911704616a121e5117869d409abe</code></p>
