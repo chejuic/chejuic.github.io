@@ -176,4 +176,4 @@ Source: (mostly from NTUH)\
 
 [門診工具列 clinic toolbar](/med/clinic-toolbar.html)　（醫令頁一鍵開報告、把 SOAP 嵌在同一畫面、帶入歷次藥物與醫令）\
 &nbsp;&nbsp;&nbsp;※ 這支會**代按**「勾套餐 / 歷次 / 暫存勾選醫令 / 確定帶入」，帶入後請自行確認畫面內容再送出；不碰診斷與 SOAP 內文。\
-[健檢工具列 hmc toolbar](/med/hmc-toolbar.html)　（打病歷號跳健檢報告頁 / 心電圖頁 / 第四代報告，純跳轉不代按）
+[健檢工具列 hmc toolbar](/med/hmc-toolbar.html)　（打病歷號跳健檢報告頁 / 心電圖頁 / 第四代報告，純跳轉不代按）\n[健檢心電圖快捷鍵 hmc ECG buttons](/med/hmc-ecg-buttons.html)　（心電圖判讀頁一鍵填建議「無明顯異常」等，順手清掉 MUSE 英文判讀；不按儲存）\n[門診診斷書捷徑 diagnosis certificate](/med/diag-certificate.html)　（門診畫面按一下，開新版診斷書頁並帶入病歷號；不按查詢、不存檔）
